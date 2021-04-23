@@ -1,0 +1,217 @@
+{
+	"name": "Melee",
+	"plugin-id": "Sprite",
+	"sid": 927838393573157,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 128,
+						"height": 128,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7831001,
+						"collisionPoly": {
+							"points": [
+								0.0078125,
+								0.0078125,
+								0.5,
+								0.4765625,
+								0.984375,
+								0.0078125,
+								0.6015625,
+								0.5,
+								0.734375,
+								0.734375,
+								0.5,
+								0.84375,
+								0.2578125,
+								0.734375,
+								0.390625,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 128,
+						"height": 128,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6418579,
+						"collisionPoly": {
+							"points": [
+								0.609375,
+								0.5,
+								0.7421875,
+								0.734375,
+								0.5,
+								0.84375,
+								0.265625,
+								0.734375,
+								0.3984375,
+								0.5,
+								0.015625,
+								0.0078125,
+								0.5,
+								0.4765625,
+								0.9921875,
+								0.0078125
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 128,
+						"height": 128,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8430395,
+						"collisionPoly": {
+							"points": [
+								0.0078125,
+								0.0078125,
+								0.5,
+								0.4765625,
+								0.984375,
+								0.0078125,
+								0.6015625,
+								0.5,
+								0.734375,
+								0.734375,
+								0.5,
+								0.84375,
+								0.2578125,
+								0.734375,
+								0.390625,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 128,
+						"height": 128,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8143595,
+						"collisionPoly": {
+							"points": [
+								0.609375,
+								0.5,
+								0.7421875,
+								0.734375,
+								0.5,
+								0.84375,
+								0.265625,
+								0.734375,
+								0.3984375,
+								0.5,
+								0.015625,
+								0.0078125,
+								0.5,
+								0.4765625,
+								0.9921875,
+								0.0078125
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 128,
+						"height": 128,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8366649,
+						"collisionPoly": {
+							"points": [
+								0.0078125,
+								0.0078125,
+								0.5,
+								0.4765625,
+								0.984375,
+								0.0078125,
+								0.6015625,
+								0.5,
+								0.734375,
+								0.734375,
+								0.5,
+								0.84375,
+								0.2578125,
+								0.734375,
+								0.390625,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 128,
+						"height": 128,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 462108,
+						"collisionPoly": {
+							"points": [
+								0.609375,
+								0.5,
+								0.7421875,
+								0.734375,
+								0.5,
+								0.84375,
+								0.265625,
+								0.734375,
+								0.3984375,
+								0.5,
+								0.015625,
+								0.0078125,
+								0.5,
+								0.4765625,
+								0.9921875,
+								0.0078125
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 453619668337375,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

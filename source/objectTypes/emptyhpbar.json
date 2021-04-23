@@ -1,0 +1,57 @@
+{
+	"name": "EmptyHPBar",
+	"plugin-id": "Sprite",
+	"sid": 662217970882538,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 260,
+						"height": 970,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4766608,
+						"collisionPoly": {
+							"points": [
+								0.0421875,
+								0.2025,
+								0.5,
+								0.2475,
+								0.9479166666666666,
+								0.2475,
+								0.9994791666666667,
+								0.5,
+								0.9479166666666666,
+								0.75,
+								0.5,
+								0.7475,
+								0.04479166666666667,
+								0.7825,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 664860848273975,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

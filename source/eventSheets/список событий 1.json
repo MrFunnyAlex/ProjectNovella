@@ -1,0 +1,7766 @@
+{
+	"name": "Список событий 1",
+	"events": [
+		{
+			"eventType": "include",
+			"includeSheet": "Globals"
+		},
+		{
+			"eventType": "include",
+			"includeSheet": "chlen"
+		},
+		{
+			"eventType": "variable",
+			"name": "RowsHorizontal",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 566798945498466
+		},
+		{
+			"eventType": "variable",
+			"name": "RowsVertical",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 985919700908076
+		},
+		{
+			"eventType": "variable",
+			"name": "check",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 458296119188591
+		},
+		{
+			"eventType": "variable",
+			"name": "column_sending",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 822272344689724
+		},
+		{
+			"eventType": "variable",
+			"name": "string_sending",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 700337922647192
+		},
+		{
+			"eventType": "variable",
+			"name": "MaxString",
+			"type": "number",
+			"initialValue": "4",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 903780239479024
+		},
+		{
+			"eventType": "variable",
+			"name": "MaxColumn",
+			"type": "number",
+			"initialValue": "4",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 799413363551730
+		},
+		{
+			"eventType": "variable",
+			"name": "JewelID",
+			"type": "number",
+			"initialValue": "10",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 726537989748935
+		},
+		{
+			"eventType": "variable",
+			"name": "JewelID2",
+			"type": "number",
+			"initialValue": "10",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 416948727760810
+		},
+		{
+			"eventType": "variable",
+			"name": "Kostil",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 650830620772848
+		},
+		{
+			"eventType": "variable",
+			"name": "Kostil2",
+			"type": "number",
+			"initialValue": "1",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 346109669282006
+		},
+		{
+			"eventType": "variable",
+			"name": "Kostil3Vert",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 225389753861202
+		},
+		{
+			"eventType": "variable",
+			"name": "Kostil4Vert",
+			"type": "number",
+			"initialValue": "1",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 841778551571878
+		},
+		{
+			"eventType": "variable",
+			"name": "Mov",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 723977279259497
+		},
+		{
+			"eventType": "variable",
+			"name": "OriginalX",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 527949845573042
+		},
+		{
+			"eventType": "variable",
+			"name": "OriginalY",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 624766114551650
+		},
+		{
+			"eventType": "variable",
+			"name": "Timer",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 901153539710486
+		},
+		{
+			"eventType": "variable",
+			"name": "TempColumn",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 336466804308470
+		},
+		{
+			"eventType": "variable",
+			"name": "TempColumn2",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 524396042599332
+		},
+		{
+			"eventType": "variable",
+			"name": "TempString",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 194583639138656
+		},
+		{
+			"eventType": "variable",
+			"name": "TempString2",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 523683228068259
+		},
+		{
+			"eventType": "variable",
+			"name": "OKToSwap",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 135937095466072
+		},
+		{
+			"eventType": "variable",
+			"name": "EnemyStart",
+			"type": "number",
+			"initialValue": "6",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 179316109948794
+		},
+		{
+			"eventType": "variable",
+			"name": "FullEnd",
+			"type": "number",
+			"initialValue": "11",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 393791455995095
+		},
+		{
+			"eventType": "variable",
+			"name": "EnemyTurn",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 976803178489338
+		},
+		{
+			"eventType": "variable",
+			"name": "EnemyStartColumn",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 776620405764042
+		},
+		{
+			"eventType": "variable",
+			"name": "EnemyStartString",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 794957605686725
+		},
+		{
+			"eventType": "variable",
+			"name": "EnemEndString2",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 141428378938351
+		},
+		{
+			"eventType": "variable",
+			"name": "EnemyEndColumn",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 302478280249333
+		},
+		{
+			"eventType": "variable",
+			"name": "Best_Column",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 584389857158681
+		},
+		{
+			"eventType": "variable",
+			"name": "Best_String",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 685817894116977
+		},
+		{
+			"eventType": "variable",
+			"name": "Best_Direction",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 383975916690446
+		},
+		{
+			"eventType": "variable",
+			"name": "Best_Row",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 715034986817773
+		},
+		{
+			"eventType": "variable",
+			"name": "AISettings",
+			"type": "number",
+			"initialValue": "2",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 779966095574630
+		},
+		{
+			"eventType": "variable",
+			"name": "number_change",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 124676426254989
+		},
+		{
+			"eventType": "variable",
+			"name": "Temp",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 680166258994867
+		},
+		{
+			"eventType": "variable",
+			"name": "DamageMag1",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 147676245278294
+		},
+		{
+			"eventType": "variable",
+			"name": "DamageMag2",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 400064221747147
+		},
+		{
+			"eventType": "variable",
+			"name": "DamagePhys1",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 919692928467689
+		},
+		{
+			"eventType": "variable",
+			"name": "FirstPick",
+			"type": "number",
+			"initialValue": "1",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 682834851581142
+		},
+		{
+			"eventType": "variable",
+			"name": "DamagePhys2",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 120118464120830
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 730039052827500
+				}
+			],
+			"actions": [],
+			"sid": 484181790368403,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "for-each",
+							"objectClass": "System",
+							"sid": 907892780642533,
+							"parameters": {
+								"object": "Jewel"
+							}
+						},
+						{
+							"id": "pick-by-evaluate",
+							"objectClass": "System",
+							"sid": 443188398175048,
+							"parameters": {
+								"object": "Sprite5",
+								"expression": "Sprite5.FollowerID=Jewel.UID"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "move-to-object",
+							"objectClass": "Sprite5",
+							"sid": 312938257094857,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"object": "Jewel",
+								"image-point": "0",
+								"mode": "direct"
+							}
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 468786142224686,
+							"parameters": {
+								"variable": "check",
+								"value": "10"
+							}
+						}
+					],
+					"sid": 527525979873686
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 183407358524716,
+					"parameters": {
+						"interval-seconds": "0.1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-height",
+					"objectClass": "EnemyHpBar",
+					"sid": 577567105633772,
+					"parameters": {
+						"height": "970 * EnemyHPBar.Hp/500"
+					}
+				},
+				{
+					"id": "set-height",
+					"objectClass": "YourHPBar",
+					"sid": 347725692687000,
+					"parameters": {
+						"height": "970 * YourHPBar.Hp/500"
+					}
+				},
+				{
+					"id": "set-width",
+					"objectClass": "ShieldMagical",
+					"sid": 697929991723891,
+					"parameters": {
+						"width": "ShieldMagical.ShieldHp*2"
+					}
+				},
+				{
+					"id": "set-height",
+					"objectClass": "ShieldMagical",
+					"sid": 303543513446694,
+					"parameters": {
+						"height": "ShieldMagical.ShieldHp*2"
+					}
+				},
+				{
+					"id": "set-width",
+					"objectClass": "ShieldPhysical",
+					"sid": 480602068711117,
+					"parameters": {
+						"width": "ShieldPhysical.ShieldHp*2"
+					}
+				},
+				{
+					"id": "set-height",
+					"objectClass": "ShieldPhysical",
+					"sid": 561622447566885,
+					"parameters": {
+						"height": "ShieldPhysical.ShieldHp*2"
+					}
+				},
+				{
+					"id": "set-width",
+					"objectClass": "EnemyMagShield",
+					"sid": 902417857534974,
+					"parameters": {
+						"width": "EnemyMagShield.ShieldHp*2"
+					}
+				},
+				{
+					"id": "set-height",
+					"objectClass": "EnemyMagShield",
+					"sid": 100327611910119,
+					"parameters": {
+						"height": "EnemyMagShield.ShieldHp*2"
+					}
+				},
+				{
+					"id": "set-width",
+					"objectClass": "EnemyPhysShield",
+					"sid": 922173532447517,
+					"parameters": {
+						"width": "EnemyPhysShield.ShieldHp*2"
+					}
+				},
+				{
+					"id": "set-height",
+					"objectClass": "EnemyPhysShield",
+					"sid": 893744972627128,
+					"parameters": {
+						"height": "EnemyPhysShield.ShieldHp*2"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Text4",
+					"sid": 781533755248430,
+					"parameters": {
+						"text": "Companion.CurrentCD"
+					}
+				}
+			],
+			"sid": 805219833850535
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 900717714880969
+				}
+			],
+			"actions": [
+				{
+					"id": "set-selection",
+					"objectClass": "List",
+					"sid": 558933225939863,
+					"parameters": {
+						"index": "1"
+					}
+				},
+				{
+					"id": "stop-animation",
+					"objectClass": "Jewel",
+					"sid": 472391338846659
+				},
+				{
+					"id": "set-animation-frame",
+					"objectClass": "Jewel",
+					"sid": 417145952442651,
+					"parameters": {
+						"frame-number": "Jewel.color"
+					}
+				},
+				{
+					"id": "set-cursor-from-sprite",
+					"objectClass": "Мышь",
+					"sid": 226304063061171,
+					"parameters": {
+						"sprite": "Cursor"
+					}
+				}
+			],
+			"sid": 533234197370255
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Effects",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "group",
+					"disabled": false,
+					"title": "Shields",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"functionName": "Damaging",
+							"functionDescription": "",
+							"functionCategory": "",
+							"functionReturnType": "none",
+							"functionIsAsync": false,
+							"functionParameters": [],
+							"eventType": "function-block",
+							"conditions": [],
+							"actions": [
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 310569143780203,
+									"parameters": {
+										"variable": "FirstPick",
+										"value": "1"
+									}
+								}
+							],
+							"sid": 797987776060598,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "while",
+											"objectClass": "System",
+											"sid": 607866844016444
+										},
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "ShieldMagical",
+											"sid": 710763146271086,
+											"parameters": {
+												"instance-variable": "ShieldHp",
+												"comparison": 4,
+												"value": "0"
+											}
+										},
+										{
+											"id": "compare-eventvar",
+											"objectClass": "System",
+											"sid": 481033396605251,
+											"parameters": {
+												"variable": "DamageMag2",
+												"comparison": 4,
+												"value": "0"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "subtract-from-instvar",
+											"objectClass": "ShieldMagical",
+											"sid": 576460741944687,
+											"parameters": {
+												"instance-variable": "ShieldHp",
+												"value": "1"
+											}
+										},
+										{
+											"id": "subtract-from-eventvar",
+											"objectClass": "System",
+											"sid": 187306125229657,
+											"parameters": {
+												"variable": "DamageMag2",
+												"value": "1"
+											}
+										}
+									],
+									"sid": 548896441579362
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "while",
+											"objectClass": "System",
+											"sid": 485316800311175
+										},
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "EnemyPhysShield",
+											"sid": 895870064326294,
+											"parameters": {
+												"instance-variable": "ShieldHp",
+												"comparison": 4,
+												"value": "0"
+											}
+										},
+										{
+											"id": "compare-eventvar",
+											"objectClass": "System",
+											"sid": 629591920642210,
+											"parameters": {
+												"variable": "DamagePhys1",
+												"comparison": 4,
+												"value": "0"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "subtract-from-instvar",
+											"objectClass": "EnemyPhysShield",
+											"sid": 782992929530282,
+											"parameters": {
+												"instance-variable": "ShieldHp",
+												"value": "1"
+											}
+										},
+										{
+											"id": "subtract-from-eventvar",
+											"objectClass": "System",
+											"sid": 446363616857000,
+											"parameters": {
+												"variable": "DamagePhys1",
+												"value": "1"
+											}
+										}
+									],
+									"sid": 828634606613336
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "while",
+											"objectClass": "System",
+											"sid": 332679044595862
+										},
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "EnemyMagShield",
+											"sid": 949855053823488,
+											"parameters": {
+												"instance-variable": "ShieldHp",
+												"comparison": 4,
+												"value": "0"
+											}
+										},
+										{
+											"id": "compare-eventvar",
+											"objectClass": "System",
+											"sid": 779400613512668,
+											"parameters": {
+												"variable": "DamageMag1",
+												"comparison": 4,
+												"value": "0"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "subtract-from-instvar",
+											"objectClass": "EnemyMagShield",
+											"sid": 134226999879708,
+											"parameters": {
+												"instance-variable": "ShieldHp",
+												"value": "1"
+											}
+										},
+										{
+											"id": "subtract-from-eventvar",
+											"objectClass": "System",
+											"sid": 657724366639758,
+											"parameters": {
+												"variable": "DamageMag1",
+												"value": "1"
+											}
+										}
+									],
+									"sid": 451853411409949
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "while",
+											"objectClass": "System",
+											"sid": 575531120889371
+										},
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "ShieldPhysical",
+											"sid": 502398770705802,
+											"parameters": {
+												"instance-variable": "ShieldHp",
+												"comparison": 4,
+												"value": "0"
+											}
+										},
+										{
+											"id": "compare-eventvar",
+											"objectClass": "System",
+											"sid": 742952556593671,
+											"parameters": {
+												"variable": "DamagePhys2",
+												"comparison": 4,
+												"value": "0"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "subtract-from-instvar",
+											"objectClass": "ShieldPhysical",
+											"sid": 668922817373975,
+											"parameters": {
+												"instance-variable": "ShieldHp",
+												"value": "1"
+											}
+										},
+										{
+											"id": "subtract-from-eventvar",
+											"objectClass": "System",
+											"sid": 828910902684189,
+											"parameters": {
+												"variable": "DamagePhys2",
+												"value": "1"
+											}
+										}
+									],
+									"sid": 669029629808436
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "while",
+											"objectClass": "System",
+											"sid": 219526168664019
+										},
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "ShieldMagical",
+											"sid": 756147315330504,
+											"parameters": {
+												"instance-variable": "ShieldHp",
+												"comparison": 0,
+												"value": "0"
+											}
+										},
+										{
+											"id": "compare-eventvar",
+											"objectClass": "System",
+											"sid": 383400864813869,
+											"parameters": {
+												"variable": "DamageMag2",
+												"comparison": 4,
+												"value": "0"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "subtract-from-instvar",
+											"objectClass": "YourHPBar",
+											"sid": 583323451581573,
+											"parameters": {
+												"instance-variable": "Hp",
+												"value": "1"
+											}
+										},
+										{
+											"id": "subtract-from-eventvar",
+											"objectClass": "System",
+											"sid": 385492976720301,
+											"parameters": {
+												"variable": "DamageMag2",
+												"value": "1"
+											}
+										}
+									],
+									"sid": 246546068854809
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "while",
+											"objectClass": "System",
+											"sid": 455735091161151
+										},
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "ShieldPhysical",
+											"sid": 539806949354067,
+											"parameters": {
+												"instance-variable": "ShieldHp",
+												"comparison": 0,
+												"value": "0"
+											}
+										},
+										{
+											"id": "compare-eventvar",
+											"objectClass": "System",
+											"sid": 601209550348302,
+											"parameters": {
+												"variable": "DamagePhys2",
+												"comparison": 4,
+												"value": "0"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "subtract-from-instvar",
+											"objectClass": "YourHPBar",
+											"sid": 947098085308330,
+											"parameters": {
+												"instance-variable": "Hp",
+												"value": "1"
+											}
+										},
+										{
+											"id": "subtract-from-eventvar",
+											"objectClass": "System",
+											"sid": 670665840809888,
+											"parameters": {
+												"variable": "DamagePhys2",
+												"value": "1"
+											}
+										}
+									],
+									"sid": 376246693967762
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "while",
+											"objectClass": "System",
+											"sid": 769065893381463
+										},
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "EnemyMagShield",
+											"sid": 526109984305232,
+											"parameters": {
+												"instance-variable": "ShieldHp",
+												"comparison": 0,
+												"value": "0"
+											}
+										},
+										{
+											"id": "compare-eventvar",
+											"objectClass": "System",
+											"sid": 812487768047243,
+											"parameters": {
+												"variable": "DamageMag1",
+												"comparison": 4,
+												"value": "0"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "subtract-from-instvar",
+											"objectClass": "EnemyHpBar",
+											"sid": 243337067694355,
+											"parameters": {
+												"instance-variable": "Hp",
+												"value": "1"
+											}
+										},
+										{
+											"id": "subtract-from-eventvar",
+											"objectClass": "System",
+											"sid": 328293386443685,
+											"parameters": {
+												"variable": "DamageMag1",
+												"value": "1"
+											}
+										}
+									],
+									"sid": 540259829771239
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "while",
+											"objectClass": "System",
+											"sid": 432084169798311
+										},
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "EnemyPhysShield",
+											"sid": 707718175967977,
+											"parameters": {
+												"instance-variable": "ShieldHp",
+												"comparison": 0,
+												"value": "0"
+											}
+										},
+										{
+											"id": "compare-eventvar",
+											"objectClass": "System",
+											"sid": 529327238149484,
+											"parameters": {
+												"variable": "DamagePhys1",
+												"comparison": 4,
+												"value": "0"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "subtract-from-instvar",
+											"objectClass": "EnemyHpBar",
+											"sid": 463185894214300,
+											"parameters": {
+												"instance-variable": "Hp",
+												"value": "1"
+											}
+										},
+										{
+											"id": "subtract-from-eventvar",
+											"objectClass": "System",
+											"sid": 949414532731148,
+											"parameters": {
+												"variable": "DamagePhys1",
+												"value": "1"
+											}
+										}
+									],
+									"sid": 104742855820230
+								}
+							]
+						},
+						{
+							"functionName": "Count",
+							"functionDescription": "",
+							"functionCategory": "",
+							"functionReturnType": "none",
+							"functionIsAsync": false,
+							"functionParameters": [],
+							"eventType": "function-block",
+							"conditions": [],
+							"actions": [
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 939067269746170,
+									"parameters": {
+										"variable": "DamageMag1",
+										"value": "DamageMag1*WeaponPercentageMC*MagicArmorPercentageEnemy"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 586895058991670,
+									"parameters": {
+										"variable": "DamagePhys1",
+										"value": "DamagePhys1*WeaponPercentageMC*PhysArmorPercentageEnemy"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 557034564000102,
+									"parameters": {
+										"variable": "DamageMag2",
+										"value": "DamageMag2*WeaponPercentageEnemy*MagicArmorPercentageMC"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 118445560654690,
+									"parameters": {
+										"variable": "DamagePhys2",
+										"value": "DamagePhys2*WeaponPercentageEnemy*PhysArmorPercentageMC"
+									}
+								},
+								{
+									"callFunction": "Damaging",
+									"sid": 653104184717929
+								}
+							],
+							"sid": 837683583270635
+						}
+					],
+					"sid": 785117267503429
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-destroyed",
+							"objectClass": "Jewel",
+							"sid": 321939673825486
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 278626115193060,
+							"parameters": {
+								"variable": "OkToIncrement",
+								"comparison": 0,
+								"value": "1"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 991191026397011,
+					"disabled": true,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Jewel",
+									"sid": 720341154052396,
+									"parameters": {
+										"instance-variable": "color",
+										"comparison": 0,
+										"value": "0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "add-to-eventvar",
+									"objectClass": "System",
+									"sid": 564405967394442,
+									"parameters": {
+										"variable": "DamageMag1",
+										"value": "4+FirstPick*3"
+									}
+								},
+								{
+									"id": "add-to-eventvar",
+									"objectClass": "System",
+									"sid": 656129181304669,
+									"parameters": {
+										"variable": "DamagePhys1",
+										"value": "1+FirstPick*3"
+									}
+								}
+							],
+							"sid": 641132994591446
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Jewel",
+									"sid": 673819857625171,
+									"parameters": {
+										"instance-variable": "color",
+										"comparison": 0,
+										"value": "1"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "add-to-instvar",
+									"objectClass": "YourHPBar",
+									"sid": 584289627128472,
+									"parameters": {
+										"instance-variable": "Hp",
+										"value": "2+FirstPick*3"
+									}
+								},
+								{
+									"id": "add-to-instvar",
+									"objectClass": "ShieldMagical",
+									"sid": 803820657513423,
+									"parameters": {
+										"instance-variable": "ShieldHp",
+										"value": "1+FirstPick*3"
+									}
+								}
+							],
+							"sid": 422349463583526,
+							"disabled": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Jewel",
+									"sid": 355472100728934,
+									"parameters": {
+										"instance-variable": "color",
+										"comparison": 0,
+										"value": "2"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "add-to-instvar",
+									"objectClass": "ShieldMagical",
+									"sid": 348420195985167,
+									"parameters": {
+										"instance-variable": "ShieldHp",
+										"value": "3+FirstPick*3"
+									}
+								},
+								{
+									"id": "add-to-instvar",
+									"objectClass": "ShieldPhysical",
+									"sid": 613252531923041,
+									"parameters": {
+										"instance-variable": "ShieldHp",
+										"value": "2+FirstPick*3"
+									}
+								}
+							],
+							"sid": 540619468362611,
+							"disabled": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Jewel",
+									"sid": 509109900634965,
+									"parameters": {
+										"instance-variable": "color",
+										"comparison": 0,
+										"value": "3"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "add-to-eventvar",
+									"objectClass": "System",
+									"sid": 202610837426742,
+									"parameters": {
+										"variable": "DamageMag1",
+										"value": "2+FirstPick*3"
+									}
+								},
+								{
+									"id": "add-to-eventvar",
+									"objectClass": "System",
+									"sid": 429264232568928,
+									"parameters": {
+										"variable": "DamagePhys1",
+										"value": "3+FirstPick*3"
+									}
+								}
+							],
+							"sid": 303039951615189,
+							"disabled": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Jewel",
+									"sid": 526418022535144,
+									"parameters": {
+										"instance-variable": "color",
+										"comparison": 0,
+										"value": "4"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "add-to-eventvar",
+									"objectClass": "System",
+									"sid": 570393000844973,
+									"parameters": {
+										"variable": "DamageMag2",
+										"value": "4+FirstPick*3"
+									}
+								},
+								{
+									"id": "add-to-eventvar",
+									"objectClass": "System",
+									"sid": 309424357288489,
+									"parameters": {
+										"variable": "DamagePhys2",
+										"value": "1+FirstPick*3"
+									}
+								}
+							],
+							"sid": 296475748086646,
+							"disabled": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Jewel",
+									"sid": 528964684407272,
+									"parameters": {
+										"instance-variable": "color",
+										"comparison": 0,
+										"value": "5"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "add-to-instvar",
+									"objectClass": "EnemyHpBar",
+									"sid": 507553849704247,
+									"parameters": {
+										"instance-variable": "Hp",
+										"value": "2+FirstPick*3"
+									}
+								},
+								{
+									"id": "add-to-instvar",
+									"objectClass": "EnemyMagShield",
+									"sid": 938580304322240,
+									"parameters": {
+										"instance-variable": "ShieldHp",
+										"value": "1+FirstPick*3"
+									}
+								}
+							],
+							"sid": 154990804208570,
+							"disabled": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Jewel",
+									"sid": 118817703900370,
+									"parameters": {
+										"instance-variable": "color",
+										"comparison": 0,
+										"value": "6"
+									}
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Jewel",
+									"sid": 414298616197527,
+									"parameters": {
+										"instance-variable": "Frozen"
+									},
+									"isInverted": true
+								}
+							],
+							"actions": [
+								{
+									"id": "add-to-instvar",
+									"objectClass": "EnemyMagShield",
+									"sid": 770251516332543,
+									"parameters": {
+										"instance-variable": "ShieldHp",
+										"value": "3+FirstPick*3"
+									}
+								},
+								{
+									"id": "add-to-instvar",
+									"objectClass": "EnemyPhysShield",
+									"sid": 176194734399747,
+									"parameters": {
+										"instance-variable": "ShieldHp",
+										"value": "2+FirstPick*3"
+									}
+								}
+							],
+							"sid": 133227335423611,
+							"disabled": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Jewel",
+									"sid": 644265106531887,
+									"parameters": {
+										"instance-variable": "color",
+										"comparison": 0,
+										"value": "7"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "add-to-eventvar",
+									"objectClass": "System",
+									"sid": 801368216607106,
+									"parameters": {
+										"variable": "DamageMag2",
+										"value": "2+FirstPick*3"
+									}
+								},
+								{
+									"id": "add-to-eventvar",
+									"objectClass": "System",
+									"sid": 673749997607188,
+									"parameters": {
+										"variable": "DamagePhys2",
+										"value": "3+FirstPick*3"
+									}
+								}
+							],
+							"sid": 498399738486012,
+							"disabled": true
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-destroyed",
+							"objectClass": "Jewel",
+							"sid": 742748632164439
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 952832884310175,
+							"parameters": {
+								"variable": "OkToIncrement",
+								"comparison": 0,
+								"value": "1"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 968083628865085,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "evaluate-expression",
+									"objectClass": "System",
+									"sid": 812908010143136,
+									"parameters": {
+										"value": "Figures.At(1,Jewel.color)=0"
+									}
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Jewel",
+									"sid": 846614710991740,
+									"parameters": {
+										"instance-variable": "Frozen"
+									},
+									"isInverted": true
+								}
+							],
+							"actions": [
+								{
+									"id": "add-to-eventvar",
+									"objectClass": "System",
+									"sid": 623071037611448,
+									"parameters": {
+										"variable": "DamageMag1",
+										"value": "Figures.At(4,Jewel.color)+FirstPick*3"
+									}
+								},
+								{
+									"id": "add-to-eventvar",
+									"objectClass": "System",
+									"sid": 519020260349443,
+									"parameters": {
+										"variable": "DamagePhys1",
+										"value": "Figures.At(3,Jewel.color)+FirstPick*3"
+									}
+								},
+								{
+									"id": "add-to-instvar",
+									"objectClass": "YourHPBar",
+									"sid": 355104713965781,
+									"parameters": {
+										"instance-variable": "Hp",
+										"value": "Figures.At(5,Jewel.color)+FirstPick*3"
+									}
+								},
+								{
+									"id": "add-to-instvar",
+									"objectClass": "ShieldMagical",
+									"sid": 817604698336039,
+									"parameters": {
+										"instance-variable": "ShieldHp",
+										"value": "Figures.At(7,Jewel.color)+FirstPick*3"
+									}
+								},
+								{
+									"id": "add-to-instvar",
+									"objectClass": "ShieldPhysical",
+									"sid": 102240235129264,
+									"parameters": {
+										"instance-variable": "ShieldHp",
+										"value": "Figures.At(6,Jewel.color)+FirstPick*3"
+									}
+								}
+							],
+							"sid": 636053543070353
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "evaluate-expression",
+									"objectClass": "System",
+									"sid": 979208526073840,
+									"parameters": {
+										"value": "Figures.At(1,Jewel.color)=1"
+									}
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Jewel",
+									"sid": 270449633475541,
+									"parameters": {
+										"instance-variable": "Frozen"
+									},
+									"isInverted": true
+								}
+							],
+							"actions": [
+								{
+									"id": "add-to-eventvar",
+									"objectClass": "System",
+									"sid": 935855324927833,
+									"parameters": {
+										"variable": "DamageMag2",
+										"value": "Figures.At(4,Jewel.color)+FirstPick*3"
+									}
+								},
+								{
+									"id": "add-to-eventvar",
+									"objectClass": "System",
+									"sid": 935080635429367,
+									"parameters": {
+										"variable": "DamagePhys2",
+										"value": "Figures.At(3,Jewel.color)+FirstPick*3"
+									}
+								},
+								{
+									"id": "add-to-instvar",
+									"objectClass": "EnemyHpBar",
+									"sid": 315138178052069,
+									"parameters": {
+										"instance-variable": "Hp",
+										"value": "Figures.At(5,Jewel.color)+FirstPick*3"
+									}
+								},
+								{
+									"id": "add-to-instvar",
+									"objectClass": "EnemyMagShield",
+									"sid": 154692890595855,
+									"parameters": {
+										"instance-variable": "ShieldHp",
+										"value": "Figures.At(7,Jewel.color)+FirstPick*3"
+									}
+								},
+								{
+									"id": "add-to-instvar",
+									"objectClass": "EnemyPhysShield",
+									"sid": 123769246867711,
+									"parameters": {
+										"instance-variable": "ShieldHp",
+										"value": "Figures.At(6,Jewel.color)+FirstPick*3"
+									}
+								}
+							],
+							"sid": 625920301518005
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-destroyed",
+							"objectClass": "Jewel",
+							"sid": 827897459604089
+						}
+					],
+					"actions": [
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 468537121048169,
+							"parameters": {
+								"seconds": "0.03"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 970699076973398,
+							"parameters": {
+								"variable": "FirstPick",
+								"value": "0"
+							}
+						}
+					],
+					"sid": 862102421023260
+				}
+			],
+			"sid": 440541364319977
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Swapping",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 399186277154451,
+							"parameters": {
+								"variable": "EnemyTurn",
+								"comparison": 1,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-enabled",
+							"objectClass": "Jewel",
+							"sid": 402470465711744,
+							"behaviorType": "Перетаскивание",
+							"parameters": {
+								"state": "disabled"
+							}
+						}
+					],
+					"sid": 953500503978352,
+					"disabled": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-drag-start",
+							"objectClass": "Jewel",
+							"sid": 833490956013480,
+							"behaviorType": "Перетаскивание"
+						}
+					],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 259061610100928,
+							"parameters": {
+								"variable": "OriginalX",
+								"value": "Jewel.X"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 312907471220838,
+							"parameters": {
+								"variable": "OriginalY",
+								"value": "Jewel.Y"
+							}
+						}
+					],
+					"sid": 324105005698311
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-dragging",
+							"objectClass": "Jewel",
+							"sid": 324309848526887,
+							"behaviorType": "Перетаскивание"
+						},
+						{
+							"id": "evaluate-expression",
+							"objectClass": "System",
+							"sid": 426982349325010,
+							"parameters": {
+								"value": "(Jewel.X>OriginalX+125) | (Jewel.Y>OriginalY+125)  | (Jewel.X<OriginalX- 125) | (Jewel.Y<OriginalY-125) "
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "drop",
+							"objectClass": "Jewel",
+							"sid": 213401536873334,
+							"behaviorType": "Перетаскивание"
+						},
+						{
+							"id": "set-x",
+							"objectClass": "Jewel",
+							"sid": 972079647670304,
+							"parameters": {
+								"x": "OriginalX"
+							}
+						},
+						{
+							"id": "set-y",
+							"objectClass": "Jewel",
+							"sid": 215212669635136,
+							"parameters": {
+								"y": "OriginalY"
+							}
+						}
+					],
+					"sid": 950606237565393
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "сетка",
+							"sid": 238824200662980,
+							"parameters": {
+								"instance-variable": "filled",
+								"comparison": 0,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 964475401059646,
+							"parameters": {
+								"variable": "Timer",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Jewel",
+							"sid": 963689134685286,
+							"behaviorType": "Перетаскивание",
+							"parameters": {
+								"state": "disabled"
+							}
+						}
+					],
+					"sid": 236699249936383
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 950727610593238,
+							"parameters": {
+								"interval-seconds": "0.1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 142225844452105,
+							"parameters": {
+								"variable": "Timer",
+								"value": "1"
+							}
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 114225733856644,
+							"parameters": {
+								"variable": "AttackDelay",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 623824040882215,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-eventvar",
+									"objectClass": "System",
+									"sid": 875805031097723,
+									"parameters": {
+										"variable": "Timer",
+										"comparison": 5,
+										"value": "5"
+									}
+								},
+								{
+									"id": "compare-eventvar",
+									"objectClass": "System",
+									"sid": 370681406391756,
+									"parameters": {
+										"variable": "EnemyTurn",
+										"comparison": 0,
+										"value": "0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-enabled",
+									"objectClass": "Jewel",
+									"sid": 678867656835287,
+									"behaviorType": "Перетаскивание",
+									"parameters": {
+										"state": "enabled"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 332266523315415,
+									"parameters": {
+										"variable": "OkToIncrement",
+										"value": "1"
+									}
+								}
+							],
+							"sid": 832797805507709
+						}
+					]
+				},
+				{
+					"functionName": "Swapper",
+					"functionDescription": "",
+					"functionCategory": "",
+					"functionReturnType": "none",
+					"functionIsAsync": false,
+					"functionParameters": [
+						{
+							"name": "Column",
+							"type": "number",
+							"initialValue": "0",
+							"comment": "",
+							"sid": 827379334657722
+						},
+						{
+							"name": "String",
+							"type": "number",
+							"initialValue": "0",
+							"comment": "",
+							"sid": 546332479674630
+						}
+					],
+					"eventType": "function-block",
+					"conditions": [
+						{
+							"id": "pick-by-evaluate",
+							"objectClass": "System",
+							"sid": 534016567990589,
+							"parameters": {
+								"object": "Jewel",
+								"expression": "String=Jewel.String & Column=Jewel.Column"
+							}
+						},
+						{
+							"id": "pick-by-evaluate",
+							"objectClass": "System",
+							"sid": 999727654403770,
+							"parameters": {
+								"object": "сетка",
+								"expression": "TempString=сетка.String & TempColumn=сетка.Column"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Jewel",
+							"sid": 906131417980709,
+							"parameters": {
+								"instance-variable": "Column",
+								"value": "TempColumn"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Jewel",
+							"sid": 545373768307362,
+							"parameters": {
+								"instance-variable": "String",
+								"value": "TempString"
+							}
+						},
+						{
+							"id": "set-x",
+							"objectClass": "Jewel",
+							"sid": 447451587982118,
+							"parameters": {
+								"x": "сетка.X"
+							}
+						},
+						{
+							"id": "set-y",
+							"objectClass": "Jewel",
+							"sid": 300728262749080,
+							"parameters": {
+								"y": "сетка.Y"
+							}
+						}
+					],
+					"sid": 562138870268488
+				},
+				{
+					"functionName": "BeforeSwapBack",
+					"functionDescription": "",
+					"functionCategory": "",
+					"functionReturnType": "none",
+					"functionIsAsync": false,
+					"functionParameters": [],
+					"eventType": "function-block",
+					"conditions": [
+						{
+							"id": "pick-by-evaluate",
+							"objectClass": "System",
+							"sid": 748432922883032,
+							"parameters": {
+								"object": "сетка",
+								"expression": "сетка.String=TempString & сетка.Column=TempColumn"
+							}
+						},
+						{
+							"id": "pick-by-evaluate",
+							"objectClass": "System",
+							"sid": 209628341381503,
+							"parameters": {
+								"object": "Jewel",
+								"expression": "Jewel.Column=TempColumn2 & Jewel.String=TempString2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"callFunction": "Swapperback",
+							"sid": 857016300180403
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Jewel",
+							"sid": 636330085844889,
+							"parameters": {
+								"instance-variable": "Column",
+								"value": "TempColumn"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Jewel",
+							"sid": 158665365695137,
+							"parameters": {
+								"instance-variable": "String",
+								"value": "TempString"
+							}
+						},
+						{
+							"id": "set-x",
+							"objectClass": "Jewel",
+							"sid": 326574020264937,
+							"parameters": {
+								"x": "сетка.X"
+							}
+						},
+						{
+							"id": "set-y",
+							"objectClass": "Jewel",
+							"sid": 729048550795005,
+							"parameters": {
+								"y": "сетка.Y"
+							}
+						}
+					],
+					"sid": 403198659855880
+				},
+				{
+					"functionName": "Swapperback",
+					"functionDescription": "",
+					"functionCategory": "",
+					"functionReturnType": "none",
+					"functionIsAsync": false,
+					"functionParameters": [],
+					"eventType": "function-block",
+					"conditions": [
+						{
+							"id": "pick-by-evaluate",
+							"objectClass": "System",
+							"sid": 229629096697558,
+							"parameters": {
+								"object": "сетка",
+								"expression": "TempString2=сетка.String & TempColumn2=сетка.Column"
+							}
+						},
+						{
+							"id": "pick-by-evaluate",
+							"objectClass": "System",
+							"sid": 147920584894628,
+							"parameters": {
+								"object": "Jewel",
+								"expression": "TempString=Jewel.String & TempColumn=Jewel.Column"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Jewel",
+							"sid": 546919812300928,
+							"parameters": {
+								"instance-variable": "String",
+								"value": "TempString2"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Jewel",
+							"sid": 366114023993890,
+							"parameters": {
+								"instance-variable": "Column",
+								"value": "TempColumn2"
+							}
+						},
+						{
+							"id": "set-x",
+							"objectClass": "Jewel",
+							"sid": 987296909050589,
+							"parameters": {
+								"x": "сетка.X"
+							}
+						},
+						{
+							"id": "set-y",
+							"objectClass": "Jewel",
+							"sid": 146099304034281,
+							"parameters": {
+								"y": "сетка.Y"
+							}
+						}
+					],
+					"sid": 274447556701939
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-drop",
+							"objectClass": "Jewel",
+							"sid": 955505079391175,
+							"behaviorType": "Перетаскивание"
+						},
+						{
+							"id": "pick-nearestfurthest",
+							"objectClass": "сетка",
+							"sid": 344820164785637,
+							"parameters": {
+								"which": "nearest",
+								"x": "Jewel.X",
+								"y": "Jewel.Y"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 894333465965193,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "evaluate-expression",
+									"objectClass": "System",
+									"sid": 659700880554242,
+									"parameters": {
+										"value": "(сетка.String=Jewel.String | сетка.Column=Jewel.Column) & сетка.Column<=MaxColumn"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 865467439332826,
+									"parameters": {
+										"variable": "Timer",
+										"value": "0"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 219946802214623,
+									"parameters": {
+										"variable": "EnemyTurn",
+										"value": "4"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 717676703623109,
+									"parameters": {
+										"variable": "OKToSwap",
+										"value": "0"
+									}
+								},
+								{
+									"id": "set-x",
+									"objectClass": "Jewel",
+									"sid": 536828046718854,
+									"parameters": {
+										"x": "сетка.X"
+									}
+								},
+								{
+									"id": "set-y",
+									"objectClass": "Jewel",
+									"sid": 973572707568148,
+									"parameters": {
+										"y": "сетка.Y"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 979706989779691,
+									"parameters": {
+										"variable": "TempColumn",
+										"value": "Jewel.Column"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 619577829392804,
+									"parameters": {
+										"variable": "TempString",
+										"value": "Jewel.String"
+									}
+								},
+								{
+									"id": "toggle-boolean-instvar",
+									"objectClass": "Jewel",
+									"sid": 455873239270996,
+									"parameters": {
+										"instance-variable": "GettingSwapped"
+									}
+								},
+								{
+									"callFunction": "Swapper",
+									"sid": 756413122636326,
+									"parameters": [
+										"сетка.Column",
+										"сетка.String"
+									]
+								},
+								{
+									"id": "set-instvar-value",
+									"objectClass": "Jewel",
+									"sid": 405293623097186,
+									"parameters": {
+										"instance-variable": "Column",
+										"value": "сетка.Column"
+									}
+								},
+								{
+									"id": "set-instvar-value",
+									"objectClass": "Jewel",
+									"sid": 162090659781940,
+									"parameters": {
+										"instance-variable": "String",
+										"value": "сетка.String"
+									}
+								},
+								{
+									"callFunction": "Starter",
+									"sid": 504164661207179
+								},
+								{
+									"callFunction": "Starter2",
+									"sid": 823735523507955
+								}
+							],
+							"sid": 454675618882403
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "evaluate-expression",
+									"objectClass": "System",
+									"sid": 147463570229421,
+									"parameters": {
+										"value": "сетка.String<>Jewel.String | сетка.Column<>Jewel.Column"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-x",
+									"objectClass": "Jewel",
+									"sid": 525858206713385,
+									"parameters": {
+										"x": "OriginalX"
+									}
+								},
+								{
+									"id": "set-y",
+									"objectClass": "Jewel",
+									"sid": 427313817835488,
+									"parameters": {
+										"y": "OriginalY"
+									}
+								},
+								{
+									"id": "drop",
+									"objectClass": "Jewel",
+									"sid": 283649534646557,
+									"behaviorType": "Перетаскивание"
+								}
+							],
+							"sid": 948598522309609
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-eventvar",
+									"objectClass": "System",
+									"sid": 539549534239012,
+									"parameters": {
+										"variable": "OKToSwap",
+										"comparison": 0,
+										"value": "0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 119105874397408,
+									"parameters": {
+										"variable": "TempString2",
+										"value": "Jewel.String"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 861720041418002,
+									"parameters": {
+										"variable": "TempColumn2",
+										"value": "Jewel.Column"
+									}
+								},
+								{
+									"callFunction": "BeforeSwapBack",
+									"sid": 898610688945233
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 588206019595407,
+									"parameters": {
+										"variable": "EnemyTurn",
+										"value": "0"
+									}
+								}
+							],
+							"sid": 710067453704419
+						}
+					]
+				}
+			],
+			"sid": 412084013426696
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Мышь",
+					"sid": 110509798332566,
+					"parameters": {
+						"mouse-button": "right",
+						"click-type": "clicked",
+						"object-clicked": "Jewel"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 217815684604732,
+					"parameters": {
+						"object-to-create": "Particles",
+						"layer": "3",
+						"x": "Jewel.X",
+						"y": "Jewel.Y",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Jewel",
+					"sid": 292701759386688
+				}
+			],
+			"sid": 856255550597110
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-destroyed",
+					"objectClass": "Jewel",
+					"sid": 859185034410553
+				},
+				{
+					"id": "pick-by-evaluate",
+					"objectClass": "System",
+					"sid": 396413607494165,
+					"parameters": {
+						"object": "Sprite5",
+						"expression": "Sprite5.FollowerID=Jewel.UID"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite5",
+					"sid": 320079962084588
+				}
+			],
+			"sid": 374241259993951
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-destroyed",
+					"objectClass": "Jewel",
+					"sid": 552881685736886
+				},
+				{
+					"id": "pick-by-evaluate",
+					"objectClass": "System",
+					"sid": 953797295555133,
+					"parameters": {
+						"object": "сетка",
+						"expression": "сетка.Column=Jewel.column & сетка.String=Jewel.string"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-instvar-value",
+					"objectClass": "сетка",
+					"sid": 488213838935334,
+					"parameters": {
+						"instance-variable": "filled",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 246038290966810,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [],
+					"actions": [],
+					"sid": 150919348331229
+				}
+			]
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Create",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"functionName": "SetChosen",
+					"functionDescription": "",
+					"functionCategory": "",
+					"functionReturnType": "none",
+					"functionIsAsync": false,
+					"functionParameters": [
+						{
+							"name": "Enemy",
+							"type": "number",
+							"initialValue": "0",
+							"comment": "",
+							"sid": 111817195260519
+						},
+						{
+							"name": "uid",
+							"type": "number",
+							"initialValue": "0",
+							"comment": "",
+							"sid": 250181269153797
+						}
+					],
+					"eventType": "function-block",
+					"conditions": [
+						{
+							"id": "pick-by-unique-id",
+							"objectClass": "Jewel",
+							"sid": 727201387557871,
+							"parameters": {
+								"unique-id": "uid"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 298285080485149,
+					"disabled": true,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "evaluate-expression",
+									"objectClass": "System",
+									"sid": 471825547062556,
+									"parameters": {
+										"value": "Enemy=0"
+									}
+								},
+								{
+									"id": "while",
+									"objectClass": "System",
+									"sid": 107092951545535
+								}
+							],
+							"actions": [],
+							"sid": 975866885840120,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "evaluate-expression",
+											"objectClass": "System",
+											"sid": 719420353294571,
+											"parameters": {
+												"value": "Jewel.color<>Picked.At(0,0)|Jewel.color<>Picked.At(0,1)|Jewel.color<>Picked.At(0,2)|Jewel.color<>Picked.At(0,3)\n"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-instvar-value",
+											"objectClass": "Jewel",
+											"sid": 580967008050168,
+											"parameters": {
+												"instance-variable": "color",
+												"value": "round(random(0,7))"
+											}
+										}
+									],
+									"sid": 513619257925654
+								}
+							]
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "evaluate-expression",
+									"objectClass": "System",
+									"sid": 742607125645587,
+									"parameters": {
+										"value": "Enemy=1"
+									}
+								}
+							],
+							"actions": [],
+							"sid": 925036833062943,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "while",
+											"objectClass": "System",
+											"sid": 898787796515550
+										},
+										{
+											"id": "evaluate-expression",
+											"objectClass": "System",
+											"sid": 421262192805948,
+											"disabled": true,
+											"parameters": {
+												"value": "Figures.At(8,Jewel.color)<>1"
+											}
+										},
+										{
+											"id": "evaluate-expression",
+											"objectClass": "System",
+											"sid": 271003081159232,
+											"parameters": {
+												"value": "Figures.At(8,Jewel.color)<>1"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-instvar-value",
+											"objectClass": "Jewel",
+											"sid": 601107256878971,
+											"disabled": true,
+											"parameters": {
+												"instance-variable": "color",
+												"value": "round(random(8,15))"
+											}
+										}
+									],
+									"sid": 181208962657544
+								}
+							]
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "evaluate-expression",
+									"objectClass": "System",
+									"sid": 656407963935994,
+									"parameters": {
+										"value": "Enemy=2"
+									}
+								}
+							],
+							"actions": [],
+							"sid": 644193379088981,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "while",
+											"objectClass": "System",
+											"sid": 617023761079454
+										},
+										{
+											"id": "evaluate-expression",
+											"objectClass": "System",
+											"sid": 236601400664078,
+											"parameters": {
+												"value": "Figures.At(8,Jewel.color)<>1"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-instvar-value",
+											"objectClass": "Jewel",
+											"sid": 479540829556572,
+											"disabled": true,
+											"parameters": {
+												"instance-variable": "color",
+												"value": "round(random(0,15))"
+											}
+										}
+									],
+									"sid": 172956269803626
+								}
+							]
+						},
+						{
+							"eventType": "block",
+							"conditions": [],
+							"actions": [],
+							"sid": 102854604889287,
+							"disabled": true
+						}
+					]
+				},
+				{
+					"functionName": "CR",
+					"functionDescription": "",
+					"functionCategory": "",
+					"functionReturnType": "none",
+					"functionIsAsync": false,
+					"functionParameters": [],
+					"eventType": "function-block",
+					"conditions": [
+						{
+							"id": "for-each",
+							"objectClass": "System",
+							"sid": 964317001509727,
+							"parameters": {
+								"object": "сетка"
+							}
+						},
+						{
+							"id": "pick-by-evaluate",
+							"objectClass": "System",
+							"sid": 504948324712061,
+							"parameters": {
+								"object": "сетка",
+								"expression": "сетка.filled=0 & сетка.String=0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 650148845182798,
+							"parameters": {
+								"object-to-create": "Jewel",
+								"layer": "3",
+								"x": "сетка.X",
+								"y": "сетка.Y-70",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "stop-animation",
+							"objectClass": "Jewel",
+							"sid": 142214794733748
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Jewel",
+							"sid": 618962789081769,
+							"parameters": {
+								"instance-variable": "Column",
+								"value": "сетка.Column"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Jewel",
+							"sid": 307717430631899,
+							"parameters": {
+								"instance-variable": "String",
+								"value": "сетка.String"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Jewel",
+							"sid": 996784993729826,
+							"parameters": {
+								"instance-variable": "justspawned",
+								"value": "true"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Jewel",
+							"sid": 844432599547775,
+							"parameters": {
+								"instance-variable": "color",
+								"value": "round(Picked.At(random(0,3)))"
+							}
+						},
+						{
+							"id": "set-animation-frame",
+							"objectClass": "Jewel",
+							"sid": 554890382211910,
+							"parameters": {
+								"frame-number": "Jewel.color"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "сетка",
+							"sid": 574753833067370,
+							"parameters": {
+								"instance-variable": "filled",
+								"value": "1"
+							}
+						},
+						{
+							"id": "move-to-object",
+							"objectClass": "Jewel",
+							"sid": 121735694699281,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"object": "сетка",
+								"image-point": "0",
+								"mode": "direct"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Jewel",
+							"sid": 949247991978787,
+							"parameters": {
+								"instance-variable": "justspawned",
+								"value": "false"
+							}
+						}
+					],
+					"sid": 810359191564485,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Jewel",
+									"sid": 943733189913780,
+									"parameters": {
+										"instance-variable": "Column",
+										"comparison": 4,
+										"value": "MaxColumn"
+									}
+								},
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Jewel",
+									"sid": 750481149108042,
+									"parameters": {
+										"instance-variable": "Column",
+										"comparison": 5,
+										"value": "EnemyStart"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-instvar-value",
+									"objectClass": "Jewel",
+									"sid": 387030284575373,
+									"parameters": {
+										"instance-variable": "color",
+										"value": "round(random(0,3))+4"
+									}
+								},
+								{
+									"id": "set-animation-frame",
+									"objectClass": "Jewel",
+									"sid": 521947483978467,
+									"parameters": {
+										"frame-number": "Jewel.color"
+									}
+								}
+							],
+							"sid": 903016464565840
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Jewel",
+									"sid": 777085400183998,
+									"parameters": {
+										"instance-variable": "Column",
+										"comparison": 3,
+										"value": "MaxColumn"
+									}
+								},
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Jewel",
+									"sid": 358723214673574,
+									"parameters": {
+										"instance-variable": "Column",
+										"comparison": 5,
+										"value": "EnemyStart"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-instvar-value",
+									"objectClass": "Jewel",
+									"sid": 401261347791759,
+									"parameters": {
+										"instance-variable": "color",
+										"value": "round(random(0,7))"
+									}
+								},
+								{
+									"id": "set-animation-frame",
+									"objectClass": "Jewel",
+									"sid": 362802883049196,
+									"parameters": {
+										"frame-number": "Jewel.color"
+									}
+								}
+							],
+							"sid": 111294976822785
+						}
+					]
+				},
+				{
+					"functionName": "CREnemy",
+					"functionDescription": "",
+					"functionCategory": "",
+					"functionReturnType": "none",
+					"functionIsAsync": false,
+					"functionParameters": [],
+					"eventType": "function-block",
+					"conditions": [
+						{
+							"id": "pick-by-evaluate",
+							"objectClass": "System",
+							"sid": 365779067627827,
+							"parameters": {
+								"object": "сетка",
+								"expression": "сетка.filled=0 & сетка.String=0 & сетка.Column>MaxColumn-1"
+							}
+						},
+						{
+							"id": "for-each",
+							"objectClass": "System",
+							"sid": 964063068842790,
+							"parameters": {
+								"object": "сетка"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 776503388096542,
+							"parameters": {
+								"object-to-create": "Jewel",
+								"layer": "0",
+								"x": "сетка.X",
+								"y": "сетка.Y-70",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Jewel",
+							"sid": 510949493029829,
+							"parameters": {
+								"instance-variable": "color",
+								"value": "round(random(0,2))+3"
+							}
+						},
+						{
+							"id": "stop-animation",
+							"objectClass": "Jewel",
+							"sid": 756918173222906
+						},
+						{
+							"id": "set-animation-frame",
+							"objectClass": "Jewel",
+							"sid": 365513386717755,
+							"parameters": {
+								"frame-number": "Jewel.color"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Jewel",
+							"sid": 597050399617979,
+							"parameters": {
+								"instance-variable": "Column",
+								"value": "сетка.Column"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Jewel",
+							"sid": 228570065589581,
+							"parameters": {
+								"instance-variable": "String",
+								"value": "сетка.String"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Jewel",
+							"sid": 841904275861813,
+							"parameters": {
+								"instance-variable": "justspawned",
+								"value": "true"
+							}
+						},
+						{
+							"id": "move-to-object",
+							"objectClass": "Jewel",
+							"sid": 111323814937413,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"object": "сетка",
+								"image-point": "0",
+								"mode": "direct"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "сетка",
+							"sid": 121249345413312,
+							"parameters": {
+								"instance-variable": "filled",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Jewel",
+							"sid": 280930650247378,
+							"parameters": {
+								"instance-variable": "justspawned",
+								"value": "false"
+							}
+						}
+					],
+					"sid": 110674002302511,
+					"disabled": true
+				}
+			],
+			"sid": 755704286564766
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 137302449281184,
+					"parameters": {
+						"interval-seconds": "0.1"
+					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 645921167874504,
+					"parameters": {
+						"variable": "Mov",
+						"comparison": 0,
+						"value": "0"
+					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 484233351574691,
+					"parameters": {
+						"variable": "Kostil",
+						"comparison": 0,
+						"value": "0"
+					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 152893264178474,
+					"parameters": {
+						"variable": "Kostil3Vert",
+						"comparison": 0,
+						"value": "0"
+					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 615302498152593,
+					"parameters": {
+						"variable": "Timer",
+						"comparison": 4,
+						"value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"callFunction": "Starter",
+					"sid": 306101925773445
+				},
+				{
+					"callFunction": "Starter2",
+					"sid": 309339083349661
+				},
+				{
+					"callFunction": "RemoveMarked",
+					"sid": 786311590427573
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 637577644927802,
+					"parameters": {
+						"variable": "Kostil",
+						"value": "0"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 647129805757265,
+					"parameters": {
+						"variable": "Kostil3Vert",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 665067756187210
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 193865559555366,
+					"parameters": {
+						"interval-seconds": "0.01"
+					}
+				}
+			],
+			"actions": [
+				{
+					"callFunction": "CR",
+					"sid": 563134043117933
+				},
+				{
+					"callFunction": "CREnemy",
+					"sid": 845952468056574
+				}
+			],
+			"sid": 444361610988582
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "MoveDown",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 156078321995069,
+							"parameters": {
+								"interval-seconds": "0.2"
+							}
+						},
+						{
+							"id": "pick-by-evaluate",
+							"objectClass": "System",
+							"sid": 660860789082495,
+							"parameters": {
+								"object": "сетка",
+								"expression": "сетка.filled=1 & сетка.String<>MaxString"
+							}
+						},
+						{
+							"id": "for-each",
+							"objectClass": "System",
+							"sid": 335421861337685,
+							"parameters": {
+								"object": "сетка"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 230299126632690,
+							"parameters": {
+								"variable": "column_sending",
+								"value": "сетка.Column"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 240749454880157,
+							"parameters": {
+								"variable": "string_sending",
+								"value": "сетка.String"
+							}
+						},
+						{
+							"callFunction": "CheckBelow",
+							"sid": 422714290965975
+						}
+					],
+					"sid": 893795821263008
+				},
+				{
+					"functionName": "CheckBelow",
+					"functionDescription": "",
+					"functionCategory": "",
+					"functionReturnType": "none",
+					"functionIsAsync": false,
+					"functionParameters": [],
+					"eventType": "function-block",
+					"conditions": [
+						{
+							"id": "pick-by-evaluate",
+							"objectClass": "System",
+							"sid": 227560389669135,
+							"parameters": {
+								"object": "сетка",
+								"expression": "сетка.filled=0 & сетка.String=string_sending+1 & сетка.Column=column_sending"
+							}
+						},
+						{
+							"id": "pick-by-evaluate",
+							"objectClass": "System",
+							"sid": 508999397627941,
+							"parameters": {
+								"object": "Jewel",
+								"expression": "Jewel.String=string_sending & Jewel.Column=column_sending"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "сетка",
+							"sid": 834930041447712,
+							"parameters": {
+								"instance-variable": "filled",
+								"value": "1"
+							}
+						},
+						{
+							"id": "move-to-object",
+							"objectClass": "Jewel",
+							"sid": 359837836771689,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"object": "сетка",
+								"image-point": "0",
+								"mode": "direct"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Jewel",
+							"sid": 503442113623567,
+							"parameters": {
+								"instance-variable": "Column",
+								"value": "сетка.Column"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Jewel",
+							"sid": 484248670453229,
+							"parameters": {
+								"instance-variable": "String",
+								"value": "сетка.String"
+							}
+						},
+						{
+							"callFunction": "ReturnUnfilledAbove",
+							"sid": 528083509131073
+						}
+					],
+					"sid": 659653819647351
+				},
+				{
+					"functionName": "ReturnUnfilledAbove",
+					"functionDescription": "",
+					"functionCategory": "",
+					"functionReturnType": "none",
+					"functionIsAsync": false,
+					"functionParameters": [],
+					"eventType": "function-block",
+					"conditions": [
+						{
+							"id": "pick-by-evaluate",
+							"objectClass": "System",
+							"sid": 362929768230780,
+							"parameters": {
+								"object": "сетка",
+								"expression": "сетка.String=string_sending & сетка.Column=column_sending"
+							}
+						},
+						{
+							"id": "for-each",
+							"objectClass": "System",
+							"sid": 736326161624792,
+							"parameters": {
+								"object": "сетка"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "сетка",
+							"sid": 742345099993181,
+							"parameters": {
+								"instance-variable": "filled",
+								"value": "0"
+							}
+						}
+					],
+					"sid": 628307691374013
+				}
+			],
+			"sid": 387719424693109
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "DESTROY",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "group",
+					"disabled": false,
+					"title": "Vert",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"functionName": "Starter2",
+							"functionDescription": "",
+							"functionCategory": "",
+							"functionReturnType": "none",
+							"functionIsAsync": false,
+							"functionParameters": [],
+							"eventType": "function-block",
+							"conditions": [],
+							"actions": [
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 648771711190604,
+									"parameters": {
+										"variable": "Kostil3Vert",
+										"value": "0"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 738485458320441,
+									"parameters": {
+										"variable": "Kostil4Vert",
+										"value": "0"
+									}
+								},
+								{
+									"callFunction": "TheFirstLoopOfDesctruction2",
+									"sid": 114952242186870
+								}
+							],
+							"sid": 491537079947394
+						},
+						{
+							"functionName": "TheFirstLoopOfDesctruction2",
+							"functionDescription": "",
+							"functionCategory": "",
+							"functionReturnType": "none",
+							"functionIsAsync": false,
+							"functionParameters": [],
+							"eventType": "function-block",
+							"conditions": [],
+							"actions": [],
+							"sid": 420215347042334,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "for",
+											"objectClass": "System",
+											"sid": 974683485334466,
+											"parameters": {
+												"name": "\"FromToptoBottom\"",
+												"start-index": "0",
+												"end-index": "MaxColumn"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-eventvar-value",
+											"objectClass": "System",
+											"sid": 428445850055977,
+											"parameters": {
+												"variable": "RowsVertical",
+												"value": "0"
+											}
+										},
+										{
+											"callFunction": "CheckForSpaces2",
+											"sid": 809555551081023,
+											"parameters": [
+												"loopindex"
+											]
+										},
+										{
+											"callFunction": "TheSecondLoopOfDesctruction2",
+											"sid": 835788087767975,
+											"parameters": [
+												"loopindex"
+											]
+										}
+									],
+									"sid": 181807199122815
+								},
+								{
+									"eventType": "block",
+									"conditions": [],
+									"actions": [
+										{
+											"id": "set-eventvar-value",
+											"objectClass": "System",
+											"sid": 515072468803183,
+											"parameters": {
+												"variable": "RowsVertical",
+												"value": "0"
+											}
+										}
+									],
+									"sid": 468674004137548
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "for",
+											"objectClass": "System",
+											"sid": 146948577892759,
+											"parameters": {
+												"name": "\"FromToptoBottom\"",
+												"start-index": "EnemyStart",
+												"end-index": "FullEnd"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-eventvar-value",
+											"objectClass": "System",
+											"sid": 829124751988971,
+											"parameters": {
+												"variable": "RowsVertical",
+												"value": "0"
+											}
+										},
+										{
+											"callFunction": "CheckForSpaces2",
+											"sid": 483005951428273,
+											"parameters": [
+												"loopindex"
+											]
+										},
+										{
+											"callFunction": "TheSecondLoopOfDesctruction2",
+											"sid": 627466339286104,
+											"parameters": [
+												"loopindex"
+											]
+										}
+									],
+									"sid": 523923663893864
+								}
+							]
+						},
+						{
+							"functionName": "CheckForSpaces2",
+							"functionDescription": "",
+							"functionCategory": "",
+							"functionReturnType": "none",
+							"functionIsAsync": false,
+							"functionParameters": [
+								{
+									"name": "Column",
+									"type": "number",
+									"initialValue": "0",
+									"comment": "",
+									"sid": 697355145925728
+								}
+							],
+							"eventType": "function-block",
+							"conditions": [
+								{
+									"id": "for",
+									"objectClass": "System",
+									"sid": 722080546203492,
+									"parameters": {
+										"name": "\"FromLefttoRight\"",
+										"start-index": "0",
+										"end-index": "MaxString"
+									}
+								},
+								{
+									"id": "pick-by-evaluate",
+									"objectClass": "System",
+									"sid": 778726872411916,
+									"parameters": {
+										"object": "сетка",
+										"expression": "сетка.filled=0 & сетка.Column=Column & сетка.String=loopindex"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 771478895311515,
+									"parameters": {
+										"variable": "Kostil3Vert",
+										"value": "1"
+									}
+								}
+							],
+							"sid": 325593567096818
+						},
+						{
+							"functionName": "TheSecondLoopOfDesctruction2",
+							"functionDescription": "",
+							"functionCategory": "",
+							"functionReturnType": "none",
+							"functionIsAsync": false,
+							"functionParameters": [
+								{
+									"name": "Column",
+									"type": "number",
+									"initialValue": "0",
+									"comment": "",
+									"sid": 211160319690429
+								}
+							],
+							"eventType": "function-block",
+							"conditions": [
+								{
+									"id": "compare-eventvar",
+									"objectClass": "System",
+									"sid": 570177215305074,
+									"parameters": {
+										"variable": "Kostil3Vert",
+										"comparison": 0,
+										"value": "0"
+									}
+								},
+								{
+									"id": "for",
+									"objectClass": "System",
+									"sid": 705588982016357,
+									"parameters": {
+										"name": "\"FromLefttoRight\"",
+										"start-index": "0",
+										"end-index": "MaxString"
+									}
+								},
+								{
+									"id": "pick-by-evaluate",
+									"objectClass": "System",
+									"sid": 655841541872547,
+									"parameters": {
+										"object": "Jewel",
+										"expression": "Jewel.String=loopindex & Jewel.Column=Column"
+									}
+								}
+							],
+							"actions": [],
+							"sid": 126696209153011,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-eventvar",
+											"objectClass": "System",
+											"sid": 671422327005675,
+											"parameters": {
+												"variable": "JewelID2",
+												"comparison": 1,
+												"value": "10"
+											}
+										},
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "Jewel",
+											"sid": 211358016056853,
+											"parameters": {
+												"instance-variable": "color",
+												"comparison": 0,
+												"value": "JewelID2"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "add-to-eventvar",
+											"objectClass": "System",
+											"sid": 315538562473316,
+											"parameters": {
+												"variable": "RowsVertical",
+												"value": "1"
+											}
+										}
+									],
+									"sid": 884376942250028
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-eventvar",
+											"objectClass": "System",
+											"sid": 568777670642629,
+											"parameters": {
+												"variable": "JewelID2",
+												"comparison": 1,
+												"value": "10"
+											}
+										},
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "Jewel",
+											"sid": 339786083185649,
+											"parameters": {
+												"instance-variable": "color",
+												"comparison": 1,
+												"value": "JewelID2"
+											}
+										}
+									],
+									"actions": [],
+									"sid": 443596339092824,
+									"children": [
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 353899923027606,
+													"parameters": {
+														"variable": "RowsVertical",
+														"comparison": 2,
+														"value": "3"
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-eventvar-value",
+													"objectClass": "System",
+													"sid": 422839395307762,
+													"parameters": {
+														"variable": "JewelID2",
+														"value": "Jewel.color"
+													}
+												},
+												{
+													"id": "set-eventvar-value",
+													"objectClass": "System",
+													"sid": 427129115282716,
+													"parameters": {
+														"variable": "RowsVertical",
+														"value": "1"
+													}
+												}
+											],
+											"sid": 219023668502389
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 377905948830751,
+													"parameters": {
+														"variable": "RowsVertical",
+														"comparison": 4,
+														"value": "2"
+													}
+												}
+											],
+											"actions": [
+												{
+													"callFunction": "DestructionAtLast2",
+													"sid": 587796873930373,
+													"parameters": [
+														"loopindex",
+														"Column"
+													]
+												},
+												{
+													"id": "set-eventvar-value",
+													"objectClass": "System",
+													"sid": 246518728503394,
+													"parameters": {
+														"variable": "RowsVertical",
+														"value": "1"
+													}
+												}
+											],
+											"sid": 355289823611490
+										}
+									]
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-eventvar",
+											"objectClass": "System",
+											"sid": 499705800002394,
+											"parameters": {
+												"variable": "JewelID2",
+												"comparison": 0,
+												"value": "10"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-eventvar-value",
+											"objectClass": "System",
+											"sid": 586003067638022,
+											"parameters": {
+												"variable": "JewelID2",
+												"value": "Jewel.color"
+											}
+										},
+										{
+											"id": "set-eventvar-value",
+											"objectClass": "System",
+											"sid": 139666265000562,
+											"parameters": {
+												"variable": "RowsVertical",
+												"value": "1"
+											}
+										}
+									],
+									"sid": 197128051671454
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-eventvar",
+											"objectClass": "System",
+											"sid": 465886275407851,
+											"parameters": {
+												"variable": "MaxString",
+												"comparison": 0,
+												"value": "loopindex"
+											}
+										}
+									],
+									"actions": [],
+									"sid": 756517803864371,
+									"children": [
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 962681561339821,
+													"parameters": {
+														"variable": "RowsVertical",
+														"comparison": 4,
+														"value": "2"
+													}
+												}
+											],
+											"actions": [
+												{
+													"callFunction": "DestructionAtLast2",
+													"sid": 792824268106445,
+													"parameters": [
+														"loopindex+1",
+														"Column"
+													]
+												}
+											],
+											"sid": 586999195919073
+										}
+									]
+								}
+							]
+						},
+						{
+							"functionName": "DestructionAtLast2",
+							"functionDescription": "",
+							"functionCategory": "",
+							"functionReturnType": "none",
+							"functionIsAsync": false,
+							"functionParameters": [
+								{
+									"name": "end",
+									"type": "number",
+									"initialValue": "0",
+									"comment": "",
+									"sid": 340672589708719
+								},
+								{
+									"name": "Column",
+									"type": "number",
+									"initialValue": "0",
+									"comment": "",
+									"sid": 774143373884057
+								}
+							],
+							"eventType": "function-block",
+							"conditions": [
+								{
+									"id": "for",
+									"objectClass": "System",
+									"sid": 975840679936144,
+									"parameters": {
+										"name": "\"FromLefttoRight\"",
+										"start-index": "end-RowsVertical",
+										"end-index": "end-1"
+									}
+								},
+								{
+									"id": "pick-by-evaluate",
+									"objectClass": "System",
+									"sid": 736329149878723,
+									"parameters": {
+										"object": "Jewel",
+										"expression": "Jewel.String=loopindex & Jewel.Column=Column"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 816980510022743,
+									"parameters": {
+										"variable": "OKToSwap",
+										"value": "1"
+									}
+								},
+								{
+									"id": "set-boolean-instvar",
+									"objectClass": "Jewel",
+									"sid": 216398244200546,
+									"parameters": {
+										"instance-variable": "MarkedForDeath",
+										"value": "true"
+									}
+								}
+							],
+							"sid": 700586072189519
+						}
+					],
+					"sid": 184131909055734
+				},
+				{
+					"eventType": "group",
+					"disabled": false,
+					"title": " Horiz",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"functionName": "Starter",
+							"functionDescription": "",
+							"functionCategory": "",
+							"functionReturnType": "none",
+							"functionIsAsync": false,
+							"functionParameters": [],
+							"eventType": "function-block",
+							"conditions": [],
+							"actions": [
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 228656900173924,
+									"parameters": {
+										"variable": "Kostil",
+										"value": "0"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 726422423623734,
+									"parameters": {
+										"variable": "Kostil2",
+										"value": "0"
+									}
+								},
+								{
+									"callFunction": "TheFirstLoopOfDesctruction",
+									"sid": 404666712916748
+								}
+							],
+							"sid": 957590015402702
+						},
+						{
+							"functionName": "TheFirstLoopOfDesctruction",
+							"functionDescription": "",
+							"functionCategory": "",
+							"functionReturnType": "none",
+							"functionIsAsync": false,
+							"functionParameters": [],
+							"eventType": "function-block",
+							"conditions": [
+								{
+									"id": "for",
+									"objectClass": "System",
+									"sid": 108744793919069,
+									"parameters": {
+										"name": "\"FromToptoBottom\"",
+										"start-index": "0",
+										"end-index": "MaxString"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 181546709405607,
+									"parameters": {
+										"variable": "RowsHorizontal",
+										"value": "0"
+									}
+								},
+								{
+									"callFunction": "CheckForSpaces",
+									"sid": 892731782489147,
+									"parameters": [
+										"loopindex"
+									]
+								},
+								{
+									"callFunction": "TheSecondLoopOfDesctruction",
+									"sid": 591582375289468,
+									"parameters": [
+										"loopindex",
+										"0"
+									]
+								}
+							],
+							"sid": 621021000714138
+						},
+						{
+							"functionName": "CheckForSpaces",
+							"functionDescription": "",
+							"functionCategory": "",
+							"functionReturnType": "none",
+							"functionIsAsync": false,
+							"functionParameters": [
+								{
+									"name": "String",
+									"type": "number",
+									"initialValue": "0",
+									"comment": "",
+									"sid": 516285827289640
+								}
+							],
+							"eventType": "function-block",
+							"conditions": [
+								{
+									"id": "for",
+									"objectClass": "System",
+									"sid": 333789750786556,
+									"parameters": {
+										"name": "\"FromLefttoRight\"",
+										"start-index": "0",
+										"end-index": "FullEnd"
+									}
+								},
+								{
+									"id": "pick-by-evaluate",
+									"objectClass": "System",
+									"sid": 963251432858153,
+									"parameters": {
+										"object": "сетка",
+										"expression": "сетка.filled=0 & сетка.Column=loopindex & сетка.String=String"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 978791137334320,
+									"parameters": {
+										"variable": "Kostil",
+										"value": "1"
+									}
+								}
+							],
+							"sid": 111825600201073
+						},
+						{
+							"functionName": "TheSecondLoopOfDesctruction",
+							"functionDescription": "",
+							"functionCategory": "",
+							"functionReturnType": "none",
+							"functionIsAsync": false,
+							"functionParameters": [
+								{
+									"name": "String",
+									"type": "number",
+									"initialValue": "0",
+									"comment": "",
+									"sid": 746279425608115
+								},
+								{
+									"name": "String2",
+									"type": "number",
+									"initialValue": "0",
+									"comment": "",
+									"sid": 154328863024601
+								}
+							],
+							"eventType": "function-block",
+							"conditions": [
+								{
+									"id": "compare-eventvar",
+									"objectClass": "System",
+									"sid": 835108847726295,
+									"parameters": {
+										"variable": "Kostil",
+										"comparison": 0,
+										"value": "0"
+									}
+								}
+							],
+							"actions": [],
+							"sid": 254899611843919,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "for",
+											"objectClass": "System",
+											"sid": 389132345021754,
+											"parameters": {
+												"name": "\"FromLefttoRight\"",
+												"start-index": "0",
+												"end-index": "MaxColumn"
+											}
+										},
+										{
+											"id": "pick-by-evaluate",
+											"objectClass": "System",
+											"sid": 693448303442879,
+											"parameters": {
+												"object": "Jewel",
+												"expression": "Jewel.String=String & Jewel.Column=loopindex"
+											}
+										}
+									],
+									"actions": [],
+									"sid": 525587842805060,
+									"children": [
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 235489632468113,
+													"parameters": {
+														"variable": "JewelID",
+														"comparison": 1,
+														"value": "10"
+													}
+												},
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "Jewel",
+													"sid": 177950218224448,
+													"parameters": {
+														"instance-variable": "color",
+														"comparison": 0,
+														"value": "JewelID"
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "add-to-eventvar",
+													"objectClass": "System",
+													"sid": 263839580373298,
+													"parameters": {
+														"variable": "RowsHorizontal",
+														"value": "1"
+													}
+												}
+											],
+											"sid": 567696514936115
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 756817558915962,
+													"parameters": {
+														"variable": "JewelID",
+														"comparison": 1,
+														"value": "10"
+													}
+												},
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "Jewel",
+													"sid": 632528753201672,
+													"parameters": {
+														"instance-variable": "color",
+														"comparison": 1,
+														"value": "JewelID"
+													}
+												}
+											],
+											"actions": [],
+											"sid": 454309658859124,
+											"children": [
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 625234035956283,
+															"parameters": {
+																"variable": "RowsHorizontal",
+																"comparison": 2,
+																"value": "3"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 114938247515145,
+															"parameters": {
+																"variable": "JewelID",
+																"value": "Jewel.color"
+															}
+														},
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 977455868025982,
+															"parameters": {
+																"variable": "RowsHorizontal",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 531831208139511
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 261378935788678,
+															"parameters": {
+																"variable": "RowsHorizontal",
+																"comparison": 4,
+																"value": "2"
+															}
+														}
+													],
+													"actions": [
+														{
+															"callFunction": "DestructionAtLast",
+															"sid": 500038455693394,
+															"parameters": [
+																"loopindex",
+																"String"
+															]
+														},
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 590663256157615,
+															"parameters": {
+																"variable": "RowsHorizontal",
+																"value": "1"
+															}
+														},
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 516632269960565,
+															"parameters": {
+																"variable": "JewelID",
+																"value": "10"
+															}
+														}
+													],
+													"sid": 199265832487168
+												}
+											]
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 461001727726278,
+													"parameters": {
+														"variable": "JewelID",
+														"comparison": 0,
+														"value": "10"
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-eventvar-value",
+													"objectClass": "System",
+													"sid": 673617325993104,
+													"parameters": {
+														"variable": "JewelID",
+														"value": "Jewel.color"
+													}
+												},
+												{
+													"id": "set-eventvar-value",
+													"objectClass": "System",
+													"sid": 896282272935303,
+													"parameters": {
+														"variable": "RowsHorizontal",
+														"value": "1"
+													}
+												}
+											],
+											"sid": 710391553383745
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 735413590309611,
+													"parameters": {
+														"variable": "MaxColumn",
+														"comparison": 0,
+														"value": "loopindex"
+													}
+												}
+											],
+											"actions": [],
+											"sid": 972227489646643,
+											"children": [
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 197585646374024,
+															"parameters": {
+																"variable": "RowsHorizontal",
+																"comparison": 4,
+																"value": "2"
+															}
+														}
+													],
+													"actions": [
+														{
+															"callFunction": "DestructionAtLast",
+															"sid": 586901736347191,
+															"parameters": [
+																"loopindex+1",
+																"String"
+															]
+														}
+													],
+													"sid": 626974675414574
+												}
+											]
+										}
+									]
+								},
+								{
+									"eventType": "block",
+									"conditions": [],
+									"actions": [
+										{
+											"id": "set-eventvar-value",
+											"objectClass": "System",
+											"sid": 407369828634323,
+											"parameters": {
+												"variable": "RowsHorizontal",
+												"value": "0"
+											}
+										}
+									],
+									"sid": 891221375985456
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "for",
+											"objectClass": "System",
+											"sid": 774729249780890,
+											"parameters": {
+												"name": "\"FromLefttoRight\"",
+												"start-index": "EnemyStart",
+												"end-index": "FullEnd"
+											}
+										},
+										{
+											"id": "pick-by-evaluate",
+											"objectClass": "System",
+											"sid": 685392965465760,
+											"parameters": {
+												"object": "Jewel",
+												"expression": "Jewel.String=String & Jewel.Column=loopindex"
+											}
+										}
+									],
+									"actions": [],
+									"sid": 623867451773913,
+									"children": [
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 583549317546934,
+													"parameters": {
+														"variable": "JewelID",
+														"comparison": 1,
+														"value": "10"
+													}
+												},
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "Jewel",
+													"sid": 165317964758870,
+													"parameters": {
+														"instance-variable": "color",
+														"comparison": 0,
+														"value": "JewelID"
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "add-to-eventvar",
+													"objectClass": "System",
+													"sid": 984405833571566,
+													"parameters": {
+														"variable": "RowsHorizontal",
+														"value": "1"
+													}
+												}
+											],
+											"sid": 985584752804780
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 224331630365396,
+													"parameters": {
+														"variable": "JewelID",
+														"comparison": 1,
+														"value": "10"
+													}
+												},
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "Jewel",
+													"sid": 934755901373000,
+													"parameters": {
+														"instance-variable": "color",
+														"comparison": 1,
+														"value": "JewelID"
+													}
+												}
+											],
+											"actions": [],
+											"sid": 829772883000683,
+											"children": [
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 322829259973591,
+															"parameters": {
+																"variable": "RowsHorizontal",
+																"comparison": 2,
+																"value": "3"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 558780482331902,
+															"parameters": {
+																"variable": "JewelID",
+																"value": "Jewel.color"
+															}
+														},
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 698946327836117,
+															"parameters": {
+																"variable": "RowsHorizontal",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 301441757590618
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 360305856556623,
+															"parameters": {
+																"variable": "RowsHorizontal",
+																"comparison": 4,
+																"value": "2"
+															}
+														}
+													],
+													"actions": [
+														{
+															"callFunction": "DestructionAtLast",
+															"sid": 127613565489549,
+															"parameters": [
+																"loopindex",
+																"String"
+															]
+														},
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 469053225996063,
+															"parameters": {
+																"variable": "RowsHorizontal",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 585601422118584
+												}
+											]
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 280503129043896,
+													"parameters": {
+														"variable": "FullEnd",
+														"comparison": 0,
+														"value": "loopindex"
+													}
+												}
+											],
+											"actions": [],
+											"sid": 786359319067869,
+											"children": [
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 306858653746916,
+															"parameters": {
+																"variable": "RowsHorizontal",
+																"comparison": 4,
+																"value": "2"
+															}
+														}
+													],
+													"actions": [
+														{
+															"callFunction": "DestructionAtLast",
+															"sid": 209396392343694,
+															"parameters": [
+																"loopindex+1",
+																"String"
+															]
+														}
+													],
+													"sid": 403488398462060
+												},
+												{
+													"eventType": "block",
+													"conditions": [
+														{
+															"id": "compare-eventvar",
+															"objectClass": "System",
+															"sid": 562428815586564,
+															"parameters": {
+																"variable": "JewelID",
+																"comparison": 0,
+																"value": "10"
+															}
+														}
+													],
+													"actions": [
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 277299729848227,
+															"parameters": {
+																"variable": "JewelID",
+																"value": "Jewel.color"
+															}
+														},
+														{
+															"id": "set-eventvar-value",
+															"objectClass": "System",
+															"sid": 288834125745190,
+															"parameters": {
+																"variable": "RowsHorizontal",
+																"value": "1"
+															}
+														}
+													],
+													"sid": 113377879490883
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"functionName": "DestructionAtLast",
+							"functionDescription": "",
+							"functionCategory": "",
+							"functionReturnType": "none",
+							"functionIsAsync": false,
+							"functionParameters": [
+								{
+									"name": "end",
+									"type": "number",
+									"initialValue": "0",
+									"comment": "",
+									"sid": 484908346653165
+								},
+								{
+									"name": "String",
+									"type": "number",
+									"initialValue": "0",
+									"comment": "",
+									"sid": 872056174757088
+								}
+							],
+							"eventType": "function-block",
+							"conditions": [
+								{
+									"id": "for",
+									"objectClass": "System",
+									"sid": 520289575045036,
+									"parameters": {
+										"name": "\"FromLefttoRight\"",
+										"start-index": "end-RowsHorizontal",
+										"end-index": "end-1"
+									}
+								},
+								{
+									"id": "pick-by-evaluate",
+									"objectClass": "System",
+									"sid": 496892538053838,
+									"parameters": {
+										"object": "Jewel",
+										"expression": "Jewel.String=String & Jewel.Column=loopindex & Jewel.color=JewelID"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 695787464941206,
+									"parameters": {
+										"variable": "OKToSwap",
+										"value": "1"
+									}
+								},
+								{
+									"id": "set-boolean-instvar",
+									"objectClass": "Jewel",
+									"sid": 277596917762923,
+									"parameters": {
+										"instance-variable": "MarkedForDeath",
+										"value": "true"
+									}
+								}
+							],
+							"sid": 828049493172240
+						}
+					],
+					"sid": 479744548993278
+				},
+				{
+					"functionName": "RemoveMarked",
+					"functionDescription": "",
+					"functionCategory": "",
+					"functionReturnType": "none",
+					"functionIsAsync": false,
+					"functionParameters": [],
+					"eventType": "function-block",
+					"conditions": [
+						{
+							"id": "for",
+							"objectClass": "System",
+							"sid": 517866248328982,
+							"parameters": {
+								"name": "\"FromToptoBottom\"",
+								"start-index": "0",
+								"end-index": "MaxString"
+							}
+						}
+					],
+					"actions": [
+						{
+							"callFunction": "RemoveMarked2",
+							"sid": 721555690192801,
+							"parameters": [
+								"loopindex"
+							]
+						}
+					],
+					"sid": 193454921993801
+				},
+				{
+					"functionName": "ClearMark",
+					"functionDescription": "",
+					"functionCategory": "",
+					"functionReturnType": "none",
+					"functionIsAsync": false,
+					"functionParameters": [],
+					"eventType": "function-block",
+					"conditions": [
+						{
+							"id": "pick-all",
+							"objectClass": "System",
+							"sid": 669473162185219,
+							"parameters": {
+								"object": "Jewel"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Jewel",
+							"sid": 568553631048662,
+							"parameters": {
+								"instance-variable": "MarkedForDeath",
+								"value": "false"
+							}
+						}
+					],
+					"sid": 913116732862522
+				},
+				{
+					"functionName": "RemoveMarked2",
+					"functionDescription": "",
+					"functionCategory": "",
+					"functionReturnType": "none",
+					"functionIsAsync": false,
+					"functionParameters": [
+						{
+							"name": "String",
+							"type": "number",
+							"initialValue": "0",
+							"comment": "",
+							"sid": 993847239734558
+						}
+					],
+					"eventType": "function-block",
+					"conditions": [
+						{
+							"id": "for",
+							"objectClass": "System",
+							"sid": 216096484155558,
+							"parameters": {
+								"name": "\"FromLefttoRight\"",
+								"start-index": "0",
+								"end-index": "FullEnd"
+							}
+						},
+						{
+							"id": "pick-by-evaluate",
+							"objectClass": "System",
+							"sid": 473966106090348,
+							"parameters": {
+								"object": "Jewel",
+								"expression": "Jewel.String=String & Jewel.Column=loopindex & Jewel.MarkedForDeath=1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 556299496465357,
+							"parameters": {
+								"object-to-create": "Particles2",
+								"layer": "3",
+								"x": "Jewel.X",
+								"y": "Jewel.Y",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Jewel",
+							"sid": 270735763247301
+						}
+					],
+					"sid": 974880813319191
+				}
+			],
+			"sid": 817293070950618
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-moving",
+					"objectClass": "Jewel",
+					"sid": 285570088592003,
+					"behaviorType": "MoveTo"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 311199245329346,
+					"parameters": {
+						"variable": "Mov",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 983175465019030
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-arrived",
+					"objectClass": "Jewel",
+					"sid": 429842191627120,
+					"behaviorType": "MoveTo"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 370373329228796,
+					"parameters": {
+						"variable": "Mov",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 598226669514558,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "pick-all",
+							"objectClass": "System",
+							"sid": 663668105411153,
+							"parameters": {
+								"object": "Jewel"
+							}
+						},
+						{
+							"id": "is-moving",
+							"objectClass": "Jewel",
+							"sid": 320902253169697,
+							"behaviorType": "MoveTo"
+						}
+					],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 681751490848369,
+							"parameters": {
+								"variable": "Mov",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 266023375414532
+				}
+			]
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "AI",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "group",
+					"disabled": false,
+					"title": "CheckingBiggest",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"functionName": "Start_Find",
+							"functionDescription": "",
+							"functionCategory": "",
+							"functionReturnType": "none",
+							"functionIsAsync": false,
+							"functionParameters": [],
+							"eventType": "function-block",
+							"conditions": [],
+							"actions": [],
+							"sid": 739934928032144,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-two-values",
+											"objectClass": "System",
+											"sid": 399303715104530,
+											"parameters": {
+												"first-value": "CheckForMC",
+												"comparison": 0,
+												"second-value": "0"
+											}
+										},
+										{
+											"id": "for",
+											"objectClass": "System",
+											"sid": 221639777577183,
+											"parameters": {
+												"name": "\"Horizontal\"",
+												"start-index": "EnemyStart",
+												"end-index": "FullEnd"
+											}
+										}
+									],
+									"actions": [
+										{
+											"callFunction": "Second_Find",
+											"sid": 323410838846227,
+											"parameters": [
+												"loopindex"
+											]
+										}
+									],
+									"sid": 703824053457993
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-two-values",
+											"objectClass": "System",
+											"sid": 376492282471059,
+											"parameters": {
+												"first-value": "CheckForMC",
+												"comparison": 0,
+												"second-value": "1"
+											}
+										},
+										{
+											"id": "for",
+											"objectClass": "System",
+											"sid": 560871806470863,
+											"parameters": {
+												"name": "\"Horizontal\"",
+												"start-index": "0",
+												"end-index": "MaxColumn"
+											}
+										}
+									],
+									"actions": [
+										{
+											"callFunction": "Second_Find",
+											"sid": 356135212422104,
+											"parameters": [
+												"loopindex"
+											]
+										}
+									],
+									"sid": 144907048558917
+								}
+							]
+						},
+						{
+							"functionName": "Second_Find",
+							"functionDescription": "",
+							"functionCategory": "",
+							"functionReturnType": "none",
+							"functionIsAsync": false,
+							"functionParameters": [
+								{
+									"name": "Column",
+									"type": "number",
+									"initialValue": "0",
+									"comment": "",
+									"sid": 226997537399105
+								}
+							],
+							"eventType": "function-block",
+							"conditions": [
+								{
+									"id": "for",
+									"objectClass": "System",
+									"sid": 445009041733308,
+									"parameters": {
+										"name": "\"Vertical\"",
+										"start-index": "0",
+										"end-index": "MaxString"
+									}
+								},
+								{
+									"id": "pick-by-evaluate",
+									"objectClass": "System",
+									"sid": 505336799010048,
+									"parameters": {
+										"object": "Jewel",
+										"expression": "Jewel.String=loopindex & Jewel.Column=Column & Jewel.MarkedForDeath=1"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "add-to-eventvar",
+									"objectClass": "System",
+									"sid": 487919471957443,
+									"parameters": {
+										"variable": "Temp",
+										"value": "1"
+									}
+								}
+							],
+							"sid": 233216103452885
+						},
+						{
+							"functionName": "SetBiggest",
+							"functionDescription": "",
+							"functionCategory": "",
+							"functionReturnType": "none",
+							"functionIsAsync": false,
+							"functionParameters": [
+								{
+									"name": "Dir",
+									"type": "number",
+									"initialValue": "0",
+									"comment": "",
+									"sid": 874873555843376
+								}
+							],
+							"eventType": "function-block",
+							"conditions": [
+								{
+									"id": "evaluate-expression",
+									"objectClass": "System",
+									"sid": 154054152212707,
+									"parameters": {
+										"value": "Temp>Best_Row | Best_Row=0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 515492493170151,
+									"parameters": {
+										"variable": "Best_Row",
+										"value": "Temp"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 508538843293119,
+									"parameters": {
+										"variable": "Temp",
+										"value": "0"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 104986837609727,
+									"parameters": {
+										"variable": "Best_Column",
+										"value": "EnemyStartColumn"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 202913669512983,
+									"parameters": {
+										"variable": "Best_String",
+										"value": "EnemyStartString"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 915012715312774,
+									"parameters": {
+										"variable": "Best_Direction",
+										"value": "Dir"
+									}
+								}
+							],
+							"sid": 125072357226793
+						}
+					],
+					"sid": 608436611263038
+				},
+				{
+					"eventType": "group",
+					"disabled": false,
+					"title": "Easy AI",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"functionName": "EnemyCheck1",
+							"functionDescription": "",
+							"functionCategory": "",
+							"functionReturnType": "none",
+							"functionIsAsync": false,
+							"functionParameters": [],
+							"eventType": "function-block",
+							"conditions": [],
+							"actions": [],
+							"sid": 598968539396940,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-eventvar",
+											"objectClass": "System",
+											"sid": 771926654715699,
+											"parameters": {
+												"variable": "EnemyTurn",
+												"comparison": 0,
+												"value": "1"
+											}
+										},
+										{
+											"id": "compare-eventvar",
+											"objectClass": "System",
+											"sid": 210206793501123,
+											"parameters": {
+												"variable": "CheckForMc",
+												"comparison": 0,
+												"value": "0"
+											}
+										},
+										{
+											"id": "for",
+											"objectClass": "System",
+											"sid": 626181260473461,
+											"parameters": {
+												"name": "\"LoopColumns\"",
+												"start-index": "EnemyStart",
+												"end-index": "FullEnd"
+											}
+										}
+									],
+									"actions": [
+										{
+											"callFunction": "EnemyCheck2",
+											"sid": 911334946697451,
+											"parameters": [
+												"loopindex"
+											]
+										}
+									],
+									"sid": 273413556207507,
+									"children": [
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "evaluate-expression",
+													"objectClass": "System",
+													"sid": 185918153487253,
+													"parameters": {
+														"value": "loopindex=FullEnd"
+													}
+												},
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 323188653468803,
+													"parameters": {
+														"variable": "Best_Row",
+														"comparison": 2,
+														"value": "3"
+													}
+												}
+											],
+											"actions": [
+												{
+													"callFunction": "Melee",
+													"sid": 728784473107697
+												}
+											],
+											"sid": 639155645303960
+										}
+									]
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-eventvar",
+											"objectClass": "System",
+											"sid": 850694616634240,
+											"parameters": {
+												"variable": "CheckForMc",
+												"comparison": 0,
+												"value": "1"
+											}
+										},
+										{
+											"id": "for",
+											"objectClass": "System",
+											"sid": 447412467874864,
+											"parameters": {
+												"name": "\"LoopColumns\"",
+												"start-index": "0",
+												"end-index": "MaxColumn"
+											}
+										}
+									],
+									"actions": [
+										{
+											"callFunction": "EnemyCheck2",
+											"sid": 442657442890262,
+											"parameters": [
+												"loopindex"
+											]
+										}
+									],
+									"sid": 477645938081135,
+									"children": [
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "evaluate-expression",
+													"objectClass": "System",
+													"sid": 581129810519700,
+													"parameters": {
+														"value": "loopindex=MaxColumn-1"
+													}
+												},
+												{
+													"id": "compare-eventvar",
+													"objectClass": "System",
+													"sid": 656131368117655,
+													"parameters": {
+														"variable": "Best_Row",
+														"comparison": 2,
+														"value": "3"
+													}
+												}
+											],
+											"actions": [
+												{
+													"callFunction": "Melee",
+													"sid": 926464349411623
+												}
+											],
+											"sid": 732080327191891
+										}
+									]
+								}
+							]
+						},
+						{
+							"functionName": "EnemyCheck2",
+							"functionDescription": "",
+							"functionCategory": "",
+							"functionReturnType": "none",
+							"functionIsAsync": false,
+							"functionParameters": [
+								{
+									"name": "Column",
+									"type": "number",
+									"initialValue": "0",
+									"comment": "",
+									"sid": 965948296921145
+								}
+							],
+							"eventType": "function-block",
+							"conditions": [
+								{
+									"id": "for",
+									"objectClass": "System",
+									"sid": 239514551995700,
+									"parameters": {
+										"name": "\"LoopString\"",
+										"start-index": "0",
+										"end-index": "MaxString"
+									}
+								},
+								{
+									"id": "pick-by-evaluate",
+									"objectClass": "System",
+									"sid": 380261746201441,
+									"parameters": {
+										"object": "Jewel",
+										"expression": "Jewel.String=loopindex & Jewel.Column=Column"
+									}
+								},
+								{
+									"id": "compare-eventvar",
+									"objectClass": "System",
+									"sid": 680054502947469,
+									"disabled": true,
+									"parameters": {
+										"variable": "OKToSwap",
+										"comparison": 0,
+										"value": "0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 767814821045067,
+									"parameters": {
+										"variable": "EnemyStartColumn",
+										"value": "Jewel.Column"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 256605139318752,
+									"parameters": {
+										"variable": "EnemyStartString",
+										"value": "Jewel.String"
+									}
+								},
+								{
+									"callFunction": "EnemyCheck3",
+									"sid": 696894346533118
+								}
+							],
+							"sid": 725308009722561,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-eventvar",
+											"objectClass": "System",
+											"sid": 273114355033433,
+											"disabled": true,
+											"parameters": {
+												"variable": "OKToSwap",
+												"comparison": 0,
+												"value": "0"
+											}
+										}
+									],
+									"actions": [
+										{
+											"callFunction": "EnemyCheck3_Bottom",
+											"sid": 141303876907845
+										}
+									],
+									"sid": 999630120485710
+								}
+							]
+						},
+						{
+							"functionName": "EnemyCheck3",
+							"functionDescription": "",
+							"functionCategory": "",
+							"functionReturnType": "none",
+							"functionIsAsync": false,
+							"functionParameters": [],
+							"eventType": "function-block",
+							"conditions": [
+								{
+									"id": "pick-by-evaluate",
+									"objectClass": "System",
+									"sid": 537810645536061,
+									"parameters": {
+										"object": "Jewel",
+										"expression": "Jewel.Column=EnemyStartColumn+1 & Jewel.String=EnemyStartString"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 259406316079681,
+									"parameters": {
+										"variable": "Temp",
+										"value": "0"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 677899121973212,
+									"parameters": {
+										"variable": "EnemyEndColumn",
+										"value": "Jewel.Column"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 465060717876092,
+									"parameters": {
+										"variable": "EnemEndString2",
+										"value": "Jewel.String"
+									}
+								},
+								{
+									"callFunction": "EnemyCheck4",
+									"sid": 165163565326871
+								},
+								{
+									"id": "set-instvar-value",
+									"objectClass": "Jewel",
+									"sid": 532365684016615,
+									"parameters": {
+										"instance-variable": "Column",
+										"value": "EnemyStartColumn"
+									}
+								},
+								{
+									"id": "set-instvar-value",
+									"objectClass": "Jewel",
+									"sid": 433422673410643,
+									"parameters": {
+										"instance-variable": "String",
+										"value": "EnemyStartString"
+									}
+								},
+								{
+									"callFunction": "Starter",
+									"sid": 850703824941170
+								},
+								{
+									"callFunction": "Starter2",
+									"sid": 220016257094499
+								},
+								{
+									"callFunction": "Start_Find",
+									"sid": 372794630486232
+								},
+								{
+									"callFunction": "SetBiggest",
+									"sid": 385804125691293,
+									"parameters": [
+										"0"
+									]
+								},
+								{
+									"callFunction": "ClearMark",
+									"sid": 893461685417849
+								}
+							],
+							"sid": 753171615876300,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-eventvar",
+											"objectClass": "System",
+											"sid": 331592476941112,
+											"disabled": true,
+											"parameters": {
+												"variable": "OKToSwap",
+												"comparison": 0,
+												"value": "0"
+											}
+										}
+									],
+									"actions": [
+										{
+											"callFunction": "EnemySwapBack",
+											"sid": 877789079765300
+										},
+										{
+											"id": "set-instvar-value",
+											"objectClass": "Jewel",
+											"sid": 786844699260913,
+											"parameters": {
+												"instance-variable": "Column",
+												"value": "EnemyEndColumn"
+											}
+										},
+										{
+											"id": "set-instvar-value",
+											"objectClass": "Jewel",
+											"sid": 744213407666259,
+											"parameters": {
+												"instance-variable": "String",
+												"value": "EnemEndString2"
+											}
+										}
+									],
+									"sid": 915723482062240
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-eventvar",
+											"objectClass": "System",
+											"sid": 734836602111679,
+											"parameters": {
+												"variable": "OKToSwap",
+												"comparison": 0,
+												"value": "1"
+											}
+										},
+										{
+											"id": "pick-by-evaluate",
+											"objectClass": "System",
+											"sid": 347685220420226,
+											"parameters": {
+												"object": "сетка",
+												"expression": "сетка.Column=EnemyStartColumn & сетка.String=EnemyStartString"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "add-to-eventvar",
+											"objectClass": "System",
+											"sid": 974903246581062,
+											"parameters": {
+												"variable": "check",
+												"value": "1000"
+											}
+										},
+										{
+											"id": "set-eventvar-value",
+											"objectClass": "System",
+											"sid": 439329423945607,
+											"parameters": {
+												"variable": "EnemyTurn",
+												"value": "0"
+											}
+										},
+										{
+											"id": "move-to-object",
+											"objectClass": "Jewel",
+											"sid": 878968256179100,
+											"behaviorType": "MoveTo",
+											"parameters": {
+												"object": "сетка",
+												"image-point": "0",
+												"mode": "direct"
+											}
+										},
+										{
+											"callFunction": "EnemyMove",
+											"sid": 790145361552767
+										}
+									],
+									"sid": 435653937767112,
+									"disabled": true
+								}
+							]
+						},
+						{
+							"functionName": "EnemyCheck3_Bottom",
+							"functionDescription": "",
+							"functionCategory": "",
+							"functionReturnType": "none",
+							"functionIsAsync": false,
+							"functionParameters": [],
+							"eventType": "function-block",
+							"conditions": [
+								{
+									"id": "pick-by-evaluate",
+									"objectClass": "System",
+									"sid": 837268796679460,
+									"parameters": {
+										"object": "Jewel",
+										"expression": "Jewel.Column=EnemyStartColumn & Jewel.String=EnemyStartString+1"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 568458615837100,
+									"parameters": {
+										"variable": "Temp",
+										"value": "0"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 743124747085727,
+									"parameters": {
+										"variable": "EnemyEndColumn",
+										"value": "Jewel.Column"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 137579663372424,
+									"parameters": {
+										"variable": "EnemEndString2",
+										"value": "Jewel.String"
+									}
+								},
+								{
+									"callFunction": "EnemyCheck4",
+									"sid": 156646648184573
+								},
+								{
+									"id": "set-instvar-value",
+									"objectClass": "Jewel",
+									"sid": 245001754399310,
+									"parameters": {
+										"instance-variable": "Column",
+										"value": "EnemyStartColumn"
+									}
+								},
+								{
+									"id": "set-instvar-value",
+									"objectClass": "Jewel",
+									"sid": 873310678525486,
+									"parameters": {
+										"instance-variable": "String",
+										"value": "EnemyStartString"
+									}
+								},
+								{
+									"callFunction": "Starter",
+									"sid": 142580405040257
+								},
+								{
+									"callFunction": "Starter2",
+									"sid": 362054030155595
+								},
+								{
+									"callFunction": "Start_Find",
+									"sid": 766319181844692
+								},
+								{
+									"callFunction": "SetBiggest",
+									"sid": 905011066530921,
+									"parameters": [
+										"1"
+									]
+								},
+								{
+									"callFunction": "ClearMark",
+									"sid": 294653528076754
+								}
+							],
+							"sid": 668325452434396,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-eventvar",
+											"objectClass": "System",
+											"sid": 335123400784873,
+											"disabled": true,
+											"parameters": {
+												"variable": "OKToSwap",
+												"comparison": 0,
+												"value": "0"
+											}
+										}
+									],
+									"actions": [
+										{
+											"callFunction": "EnemySwapBack",
+											"sid": 506862191492951
+										},
+										{
+											"id": "set-instvar-value",
+											"objectClass": "Jewel",
+											"sid": 619247521106345,
+											"parameters": {
+												"instance-variable": "Column",
+												"value": "EnemyEndColumn"
+											}
+										},
+										{
+											"id": "set-instvar-value",
+											"objectClass": "Jewel",
+											"sid": 519945912381695,
+											"parameters": {
+												"instance-variable": "String",
+												"value": "EnemEndString2"
+											}
+										}
+									],
+									"sid": 608398665724667
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-eventvar",
+											"objectClass": "System",
+											"sid": 771224558497952,
+											"parameters": {
+												"variable": "OKToSwap",
+												"comparison": 0,
+												"value": "1"
+											}
+										},
+										{
+											"id": "pick-by-evaluate",
+											"objectClass": "System",
+											"sid": 448190234874091,
+											"parameters": {
+												"object": "сетка",
+												"expression": "сетка.Column=EnemyStartColumn & сетка.String=EnemyStartString"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "add-to-eventvar",
+											"objectClass": "System",
+											"sid": 754346547339232,
+											"parameters": {
+												"variable": "check",
+												"value": "1000"
+											}
+										},
+										{
+											"id": "set-eventvar-value",
+											"objectClass": "System",
+											"sid": 550421355927743,
+											"parameters": {
+												"variable": "EnemyTurn",
+												"value": "0"
+											}
+										},
+										{
+											"id": "move-to-object",
+											"objectClass": "Jewel",
+											"sid": 305982738020732,
+											"behaviorType": "MoveTo",
+											"parameters": {
+												"object": "сетка",
+												"image-point": "0",
+												"mode": "direct"
+											}
+										},
+										{
+											"callFunction": "EnemyMove",
+											"sid": 353819727858546
+										}
+									],
+									"sid": 685548082910271,
+									"disabled": true
+								}
+							]
+						},
+						{
+							"functionName": "EnemyMove",
+							"functionDescription": "",
+							"functionCategory": "",
+							"functionReturnType": "none",
+							"functionIsAsync": false,
+							"functionParameters": [],
+							"eventType": "function-block",
+							"conditions": [
+								{
+									"id": "pick-by-evaluate",
+									"objectClass": "System",
+									"sid": 174336641316669,
+									"parameters": {
+										"object": "Jewel",
+										"expression": "Jewel.Column=EnemyEndColumn & Jewel.String=EnemEndString2"
+									}
+								},
+								{
+									"id": "pick-by-evaluate",
+									"objectClass": "System",
+									"sid": 205337128080837,
+									"parameters": {
+										"object": "сетка",
+										"expression": "сетка.Column=EnemyEndColumn & сетка.String=EnemEndString2"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "move-to-object",
+									"objectClass": "Jewel",
+									"sid": 657618324778145,
+									"behaviorType": "MoveTo",
+									"parameters": {
+										"object": "сетка",
+										"image-point": "0",
+										"mode": "direct"
+									}
+								}
+							],
+							"sid": 578650656900291
+						},
+						{
+							"functionName": "EnemyCheck4",
+							"functionDescription": "",
+							"functionCategory": "",
+							"functionReturnType": "none",
+							"functionIsAsync": false,
+							"functionParameters": [],
+							"eventType": "function-block",
+							"conditions": [
+								{
+									"id": "pick-by-evaluate",
+									"objectClass": "System",
+									"sid": 346763497386362,
+									"parameters": {
+										"object": "Jewel",
+										"expression": "Jewel.Column=EnemyStartColumn & Jewel.String=EnemyStartString"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-instvar-value",
+									"objectClass": "Jewel",
+									"sid": 950039354959532,
+									"parameters": {
+										"instance-variable": "Column",
+										"value": "EnemyEndColumn"
+									}
+								},
+								{
+									"id": "set-instvar-value",
+									"objectClass": "Jewel",
+									"sid": 763895986389363,
+									"parameters": {
+										"instance-variable": "String",
+										"value": "EnemEndString2"
+									}
+								}
+							],
+							"sid": 941673280832733
+						},
+						{
+							"functionName": "EnemySwapBack",
+							"functionDescription": "",
+							"functionCategory": "",
+							"functionReturnType": "none",
+							"functionIsAsync": false,
+							"functionParameters": [],
+							"eventType": "function-block",
+							"conditions": [
+								{
+									"id": "pick-by-evaluate",
+									"objectClass": "System",
+									"sid": 932237026916725,
+									"parameters": {
+										"object": "Jewel",
+										"expression": "Jewel.Column=EnemyEndColumn & Jewel.String=EnemEndString2"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-instvar-value",
+									"objectClass": "Jewel",
+									"sid": 938908052248555,
+									"parameters": {
+										"instance-variable": "Column",
+										"value": "EnemyStartColumn"
+									}
+								},
+								{
+									"id": "set-instvar-value",
+									"objectClass": "Jewel",
+									"sid": 703236273220760,
+									"parameters": {
+										"instance-variable": "String",
+										"value": "EnemyStartString"
+									}
+								}
+							],
+							"sid": 356848795477985
+						},
+						{
+							"functionName": "MediumMove",
+							"functionDescription": "",
+							"functionCategory": "",
+							"functionReturnType": "none",
+							"functionIsAsync": false,
+							"functionParameters": [],
+							"eventType": "function-block",
+							"conditions": [
+								{
+									"id": "pick-by-evaluate",
+									"objectClass": "System",
+									"sid": 744665701486588,
+									"parameters": {
+										"object": "Jewel",
+										"expression": "Jewel.Column=Best_Column & Jewel.String=Best_String"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 448364936568831,
+									"parameters": {
+										"variable": "EnemyStartColumn",
+										"value": "Jewel.Column"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 448199002493997,
+									"parameters": {
+										"variable": "EnemyStartString",
+										"value": "Jewel.String"
+									}
+								},
+								{
+									"callFunction": "MediumMove2",
+									"sid": 196736557618539
+								},
+								{
+									"id": "set-instvar-value",
+									"objectClass": "Jewel",
+									"sid": 847297891964658,
+									"parameters": {
+										"instance-variable": "Column",
+										"value": "EnemyEndColumn"
+									}
+								},
+								{
+									"id": "set-instvar-value",
+									"objectClass": "Jewel",
+									"sid": 945579581096619,
+									"parameters": {
+										"instance-variable": "String",
+										"value": "EnemEndString2"
+									}
+								}
+							],
+							"sid": 630757682256422,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-eventvar",
+											"objectClass": "System",
+											"sid": 111832810878703,
+											"parameters": {
+												"variable": "Best_Direction",
+												"comparison": 0,
+												"value": "0"
+											}
+										},
+										{
+											"id": "pick-by-evaluate",
+											"objectClass": "System",
+											"sid": 641859651649286,
+											"parameters": {
+												"object": "сетка",
+												"expression": "сетка.Column=Best_Column+1 & сетка.String=Best_String"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "move-to-object",
+											"objectClass": "Jewel",
+											"sid": 644557840986897,
+											"behaviorType": "MoveTo",
+											"parameters": {
+												"object": "сетка",
+												"image-point": "0",
+												"mode": "direct"
+											}
+										}
+									],
+									"sid": 755248632693811
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-eventvar",
+											"objectClass": "System",
+											"sid": 182964261245085,
+											"parameters": {
+												"variable": "Best_Direction",
+												"comparison": 0,
+												"value": "1"
+											}
+										},
+										{
+											"id": "pick-by-evaluate",
+											"objectClass": "System",
+											"sid": 365210441743844,
+											"parameters": {
+												"object": "сетка",
+												"expression": "сетка.Column=Best_Column & сетка.String=Best_String+1"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "move-to-object",
+											"objectClass": "Jewel",
+											"sid": 548329986559456,
+											"behaviorType": "MoveTo",
+											"parameters": {
+												"object": "сетка",
+												"image-point": "0",
+												"mode": "direct"
+											}
+										}
+									],
+									"sid": 656013795899368
+								}
+							]
+						},
+						{
+							"functionName": "MediumMove2",
+							"functionDescription": "",
+							"functionCategory": "",
+							"functionReturnType": "none",
+							"functionIsAsync": false,
+							"functionParameters": [],
+							"eventType": "function-block",
+							"conditions": [],
+							"actions": [],
+							"sid": 259631361476872,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-eventvar",
+											"objectClass": "System",
+											"sid": 362654458483559,
+											"parameters": {
+												"variable": "Best_Direction",
+												"comparison": 0,
+												"value": "0"
+											}
+										},
+										{
+											"id": "pick-by-evaluate",
+											"objectClass": "System",
+											"sid": 981036881022829,
+											"parameters": {
+												"object": "Jewel",
+												"expression": "Jewel.Column=Best_Column+1 & Jewel.String=Best_String"
+											}
+										},
+										{
+											"id": "pick-by-evaluate",
+											"objectClass": "System",
+											"sid": 629624457368750,
+											"parameters": {
+												"object": "сетка",
+												"expression": "сетка.Column=Best_Column & сетка.String=Best_String"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-eventvar-value",
+											"objectClass": "System",
+											"sid": 663483065070719,
+											"parameters": {
+												"variable": "EnemyEndColumn",
+												"value": "Jewel.Column"
+											}
+										},
+										{
+											"id": "set-eventvar-value",
+											"objectClass": "System",
+											"sid": 316361297301943,
+											"parameters": {
+												"variable": "EnemEndString2",
+												"value": "Jewel.String"
+											}
+										},
+										{
+											"id": "set-instvar-value",
+											"objectClass": "Jewel",
+											"sid": 821035717494268,
+											"parameters": {
+												"instance-variable": "Column",
+												"value": "EnemyStartColumn"
+											}
+										},
+										{
+											"id": "set-instvar-value",
+											"objectClass": "Jewel",
+											"sid": 599005281888108,
+											"parameters": {
+												"instance-variable": "String",
+												"value": "EnemyStartString"
+											}
+										},
+										{
+											"id": "move-to-object",
+											"objectClass": "Jewel",
+											"sid": 149341963998705,
+											"behaviorType": "MoveTo",
+											"parameters": {
+												"object": "сетка",
+												"image-point": "0",
+												"mode": "direct"
+											}
+										}
+									],
+									"sid": 679493146815588
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-eventvar",
+											"objectClass": "System",
+											"sid": 431356888519728,
+											"parameters": {
+												"variable": "Best_Direction",
+												"comparison": 0,
+												"value": "1"
+											}
+										},
+										{
+											"id": "pick-by-evaluate",
+											"objectClass": "System",
+											"sid": 652284909639039,
+											"parameters": {
+												"object": "Jewel",
+												"expression": "Jewel.Column=Best_Column & Jewel.String=Best_String+1"
+											}
+										},
+										{
+											"id": "pick-by-evaluate",
+											"objectClass": "System",
+											"sid": 343230282071756,
+											"parameters": {
+												"object": "сетка",
+												"expression": "сетка.Column=Best_Column & сетка.String=Best_String"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-eventvar-value",
+											"objectClass": "System",
+											"sid": 426813686099991,
+											"parameters": {
+												"variable": "EnemyEndColumn",
+												"value": "Jewel.Column"
+											}
+										},
+										{
+											"id": "set-eventvar-value",
+											"objectClass": "System",
+											"sid": 215444200218923,
+											"parameters": {
+												"variable": "EnemEndString2",
+												"value": "Jewel.String"
+											}
+										},
+										{
+											"id": "set-instvar-value",
+											"objectClass": "Jewel",
+											"sid": 960802393584955,
+											"parameters": {
+												"instance-variable": "Column",
+												"value": "EnemyStartColumn"
+											}
+										},
+										{
+											"id": "set-instvar-value",
+											"objectClass": "Jewel",
+											"sid": 548881454693126,
+											"parameters": {
+												"instance-variable": "String",
+												"value": "EnemyStartString"
+											}
+										},
+										{
+											"id": "move-to-object",
+											"objectClass": "Jewel",
+											"sid": 329668990129493,
+											"behaviorType": "MoveTo",
+											"parameters": {
+												"object": "сетка",
+												"image-point": "0",
+												"mode": "direct"
+											}
+										}
+									],
+									"sid": 477169145893133
+								}
+							]
+						}
+					],
+					"sid": 531676507549681
+				}
+			],
+			"sid": 824582304481585
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 430968760182580,
+					"parameters": {
+						"key": 32
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "Sprite3",
+					"sid": 574690356199665,
+					"behaviorType": "Platform",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 304027840090617
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Changing the turn",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 500253563793288,
+							"parameters": {
+								"variable": "Timer",
+								"comparison": 5,
+								"value": "3"
+							}
+						}
+					],
+					"actions": [
+						{
+							"callFunction": "Count",
+							"sid": 806806541584703
+						}
+					],
+					"sid": 490851765952843
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 848081401387836,
+							"parameters": {
+								"variable": "Timer",
+								"comparison": 5,
+								"value": "5"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 935701941434816,
+							"parameters": {
+								"variable": "CheckForMc",
+								"value": "1"
+							}
+						},
+						{
+							"callFunction": "EnemyCheck1",
+							"sid": 365395836013545
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 574934250559741,
+							"parameters": {
+								"variable": "CheckForMc",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 129247708886139,
+							"parameters": {
+								"variable": "Best_Row",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 341779960262168,
+							"parameters": {
+								"variable": "Best_String",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 151799411719118,
+							"parameters": {
+								"variable": "Best_Column",
+								"value": "0"
+							}
+						},
+						{
+							"callFunction": "EnemyCheck1",
+							"sid": 791270076850504
+						}
+					],
+					"sid": 419160673134946,
+					"disabled": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 553505510958559,
+							"parameters": {
+								"variable": "EnemyTurn",
+								"comparison": 0,
+								"value": "3"
+							}
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 167066837037735,
+							"parameters": {
+								"variable": "Timer",
+								"comparison": 5,
+								"value": "6"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "ShieldMagical",
+							"sid": 787752001782488,
+							"parameters": {
+								"instance-variable": "ShieldHp",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "ShieldPhysical",
+							"sid": 302129783299080,
+							"parameters": {
+								"instance-variable": "ShieldHp",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 973836169359619,
+							"parameters": {
+								"variable": "FirstPick",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 645930702068557,
+							"parameters": {
+								"variable": "Best_Row",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 647315241114737,
+							"parameters": {
+								"variable": "Best_String",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 844183886355256,
+							"parameters": {
+								"variable": "Best_Column",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 842487627085509,
+							"parameters": {
+								"variable": "CheckForMc",
+								"value": "0"
+							}
+						},
+						{
+							"callFunction": "EnemyCheck1",
+							"sid": 499362553368989
+						}
+					],
+					"sid": 773770468905550,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-eventvar",
+									"objectClass": "System",
+									"sid": 771457524439624,
+									"parameters": {
+										"variable": "Timer",
+										"comparison": 5,
+										"value": "6"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 708834120417883,
+									"parameters": {
+										"variable": "EnemyTurn",
+										"value": "0"
+									}
+								}
+							],
+							"sid": 894596963371850
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Companion",
+									"sid": 813920784772440,
+									"parameters": {
+										"instance-variable": "CurrentCD",
+										"comparison": 1,
+										"value": "0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "subtract-from-instvar",
+									"objectClass": "Companion",
+									"sid": 603121836739954,
+									"parameters": {
+										"instance-variable": "CurrentCD",
+										"value": "1"
+									}
+								}
+							],
+							"sid": 916623212042726
+						},
+						{
+							"eventType": "block",
+							"conditions": [],
+							"actions": [
+								{
+									"id": "subtract-from-eventvar",
+									"objectClass": "System",
+									"sid": 467116491131505,
+									"parameters": {
+										"variable": "BarricadeLife",
+										"value": "1"
+									}
+								}
+							],
+							"sid": 200840857677224
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 745338249218053,
+							"parameters": {
+								"variable": "EnemyTurn",
+								"comparison": 0,
+								"value": "4"
+							}
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 471055450616374,
+							"parameters": {
+								"variable": "Timer",
+								"comparison": 5,
+								"value": "6"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "EnemyMagShield",
+							"sid": 649245942377413,
+							"parameters": {
+								"instance-variable": "ShieldHp",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "EnemyPhysShield",
+							"sid": 874363021937537,
+							"parameters": {
+								"instance-variable": "ShieldHp",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 378830050616226,
+							"parameters": {
+								"variable": "FirstPick",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 523933216895477,
+							"parameters": {
+								"variable": "EnemyTurn",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 980085438899571,
+							"parameters": {
+								"variable": "Temp",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 575507901393395,
+							"parameters": {
+								"variable": "Best_Row",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 442164542772689,
+							"parameters": {
+								"variable": "OKToSwap",
+								"value": "0"
+							}
+						},
+						{
+							"callFunction": "EnemyCheck1",
+							"sid": 628056846022287
+						},
+						{
+							"callFunction": "ClearMark",
+							"sid": 302343727953472
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 572374984747812,
+							"parameters": {
+								"variable": "Timer",
+								"value": "0"
+							}
+						},
+						{
+							"callFunction": "MediumMove",
+							"sid": 756693626214187
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 412788365385149,
+							"parameters": {
+								"variable": "Best_Row",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 611755583696654,
+							"parameters": {
+								"variable": "Best_String",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 543781764871648,
+							"parameters": {
+								"variable": "Best_Column",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 913937363983962,
+							"parameters": {
+								"variable": "CheckForMc",
+								"value": "1"
+							}
+						},
+						{
+							"callFunction": "EnemyCheck1",
+							"sid": 346508357724400
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 853236352468753,
+							"parameters": {
+								"variable": "EnemyTurn",
+								"value": "3"
+							}
+						},
+						{
+							"callFunction": "RemoveMarked",
+							"sid": 927068772395074,
+							"disabled": true
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 134607604122804,
+							"parameters": {
+								"variable": "Kostil",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 540598447642931,
+							"parameters": {
+								"variable": "Kostil3Vert",
+								"value": "0"
+							}
+						}
+					],
+					"sid": 775261093261549
+				}
+			],
+			"sid": 639652439709473
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite3",
+					"sid": 680955536897248,
+					"parameters": {
+						"object": "Jewel"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Jewel",
+					"sid": 703821193982605
+				}
+			],
+			"sid": 676476140781749
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "WeaponChange",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-selection",
+							"objectClass": "List",
+							"sid": 365663383038146,
+							"parameters": {
+								"comparison": 0,
+								"index": "0"
+							}
+						},
+						{
+							"id": "pick-by-evaluate",
+							"objectClass": "System",
+							"sid": 834099282514293,
+							"parameters": {
+								"object": "сетка",
+								"expression": "сетка.Column=5 & сетка.String=2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "weapon",
+							"sid": 997758314692678,
+							"parameters": {
+								"animation": "\"wand\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 844779557943449,
+							"parameters": {
+								"variable": "MaxColumn",
+								"value": "5"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "range",
+							"sid": 660742781455933,
+							"parameters": {
+								"x": "сетка.X+45",
+								"y": "сетка.Y"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 222668135666581,
+							"parameters": {
+								"variable": "WeaponPercentageMC",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 503802438019963
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-selection",
+							"objectClass": "List",
+							"sid": 133812813298845,
+							"parameters": {
+								"comparison": 0,
+								"index": "1"
+							}
+						},
+						{
+							"id": "pick-by-evaluate",
+							"objectClass": "System",
+							"sid": 929812904859070,
+							"parameters": {
+								"object": "сетка",
+								"expression": "сетка.Column=2 & сетка.String=2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "weapon",
+							"sid": 518145745108425,
+							"parameters": {
+								"animation": "\"knuckles\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 323159171334344,
+							"parameters": {
+								"variable": "MaxColumn",
+								"value": "2"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "range",
+							"sid": 151420452959950,
+							"parameters": {
+								"x": "сетка.X+45",
+								"y": "сетка.Y"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 419926408108535,
+							"parameters": {
+								"variable": "WeaponPercentageMC",
+								"value": "3"
+							}
+						}
+					],
+					"sid": 607442402018395
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-selection",
+							"objectClass": "List",
+							"sid": 752909806623161,
+							"parameters": {
+								"comparison": 0,
+								"index": "2"
+							}
+						},
+						{
+							"id": "pick-by-evaluate",
+							"objectClass": "System",
+							"sid": 794225709742095,
+							"parameters": {
+								"object": "сетка",
+								"expression": "сетка.Column=6 & сетка.String=2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "weapon",
+							"sid": 420015411071618,
+							"parameters": {
+								"animation": "\"sword\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 511964917631597,
+							"parameters": {
+								"variable": "MaxColumn",
+								"value": "6"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "range",
+							"sid": 542916738460371,
+							"parameters": {
+								"x": "сетка.X+45",
+								"y": "сетка.Y"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 689757956786508,
+							"parameters": {
+								"variable": "WeaponPercentageMC",
+								"value": "3"
+							}
+						}
+					],
+					"sid": 508723478366812
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-selection",
+							"objectClass": "List",
+							"sid": 931259107182159,
+							"parameters": {
+								"comparison": 0,
+								"index": "3"
+							}
+						},
+						{
+							"id": "pick-by-evaluate",
+							"objectClass": "System",
+							"sid": 356863496786745,
+							"parameters": {
+								"object": "сетка",
+								"expression": "сетка.Column=4 & сетка.String=2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "weapon",
+							"sid": 124875996822808,
+							"parameters": {
+								"animation": "\"leash\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 401514600992194,
+							"parameters": {
+								"variable": "MaxColumn",
+								"value": "4"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "range",
+							"sid": 499186612689111,
+							"parameters": {
+								"x": "сетка.X+45",
+								"y": "сетка.Y"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 652513733299032,
+							"parameters": {
+								"variable": "WeaponPercentageMC",
+								"value": "2"
+							}
+						}
+					],
+					"sid": 501221259939572
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Jewel",
+							"sid": 470332096393114,
+							"parameters": {
+								"instance-variable": "Column",
+								"comparison": 4,
+								"value": "MaxColumn"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-enabled",
+							"objectClass": "Jewel",
+							"sid": 455761915200196,
+							"behaviorType": "Перетаскивание",
+							"parameters": {
+								"state": "disabled"
+							}
+						}
+					],
+					"sid": 790085410075058
+				}
+			],
+			"sid": 202681035922755
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Melee",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"functionName": "Melee",
+					"functionDescription": "",
+					"functionCategory": "",
+					"functionReturnType": "none",
+					"functionIsAsync": false,
+					"functionParameters": [],
+					"eventType": "function-block",
+					"conditions": [],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 660204499145818,
+							"parameters": {
+								"variable": "Timer",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 633865560886387,
+							"parameters": {
+								"variable": "OkToIncrement",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 904926225958399,
+							"parameters": {
+								"variable": "DamagePhys1",
+								"value": "15"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 664260596346799,
+							"parameters": {
+								"variable": "DamagePhys2",
+								"value": "15"
+							}
+						},
+						{
+							"callFunction": "Damaging",
+							"sid": 173144140268576
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Melee",
+							"sid": 987359907324232,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Jewel",
+							"sid": 269418117505274
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Melee",
+							"sid": 250617610372289,
+							"parameters": {
+								"animation": "\"Animation 1\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 302941597059230,
+							"parameters": {
+								"seconds": "1"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 970126338439126,
+							"parameters": {
+								"variable": "Kostil",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 781075705602161,
+							"parameters": {
+								"variable": "Kostil3Vert",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Melee",
+							"sid": 906412574418020,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						}
+					],
+					"sid": 727342728847748
+				}
+			],
+			"sid": 838850529840318
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 884606120576430,
+					"parameters": {
+						"key": 70
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 741651169691172,
+					"parameters": {
+						"variable": "Best_Row",
+						"value": "0"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 870425244983790,
+					"parameters": {
+						"variable": "Best_String",
+						"value": "0"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 479202596315888,
+					"parameters": {
+						"variable": "Best_Column",
+						"value": "0"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 187997752592532,
+					"parameters": {
+						"variable": "CheckForMc",
+						"value": "1"
+					}
+				},
+				{
+					"callFunction": "EnemyCheck1",
+					"sid": 455019003712712
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 791370341072602,
+					"parameters": {
+						"variable": "CheckForMc",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 993815106401893
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "CompanionSkills",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-clicked",
+							"objectClass": "Button",
+							"sid": 861177728844425
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 820258429180728,
+							"parameters": {
+								"variable": "EnemyTurn",
+								"comparison": 0,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 222462048646623,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Companion",
+									"sid": 626071314182377,
+									"parameters": {
+										"instance-variable": "Skill",
+										"comparison": 0,
+										"value": "0"
+									}
+								},
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Companion",
+									"sid": 221408179302745,
+									"parameters": {
+										"instance-variable": "CurrentCD",
+										"comparison": 0,
+										"value": "0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-instvar-value",
+									"objectClass": "Companion",
+									"sid": 466585241331265,
+									"parameters": {
+										"instance-variable": "CurrentCD",
+										"value": "Companion.CD"
+									}
+								},
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 152976352455607,
+									"parameters": {
+										"variable": "OkToIncrement",
+										"value": "0"
+									}
+								},
+								{
+									"id": "destroy",
+									"objectClass": "Jewel",
+									"sid": 969791911091728
+								}
+							],
+							"sid": 153393561658154
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Companion",
+									"sid": 685096884824136,
+									"parameters": {
+										"instance-variable": "Skill",
+										"comparison": 0,
+										"value": "1"
+									}
+								},
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Companion",
+									"sid": 623427168958998,
+									"parameters": {
+										"instance-variable": "CurrentCD",
+										"comparison": 0,
+										"value": "0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-instvar-value",
+									"objectClass": "Companion",
+									"sid": 879670841146721,
+									"parameters": {
+										"instance-variable": "CurrentCD",
+										"value": "Companion.CD"
+									}
+								}
+							],
+							"sid": 846810354684920,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "pick-by-evaluate",
+											"objectClass": "System",
+											"sid": 945484390735421,
+											"parameters": {
+												"object": "Jewel",
+												"expression": "Jewel.color=6"
+											}
+										},
+										{
+											"id": "for-each",
+											"objectClass": "System",
+											"sid": 997869790451332,
+											"parameters": {
+												"object": "Jewel"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "add-to-eventvar",
+											"objectClass": "System",
+											"sid": 733301520473438,
+											"parameters": {
+												"variable": "check",
+												"value": "10"
+											}
+										},
+										{
+											"id": "set-boolean-instvar",
+											"objectClass": "Jewel",
+											"sid": 136266071239017,
+											"parameters": {
+												"instance-variable": "Frozen",
+												"value": "true"
+											}
+										},
+										{
+											"id": "create-object",
+											"objectClass": "System",
+											"sid": 168204446044587,
+											"parameters": {
+												"object-to-create": "Sprite5",
+												"layer": "2",
+												"x": "Jewel.X",
+												"y": "Jewel.Y",
+												"create-hierarchy": false
+											}
+										},
+										{
+											"id": "set-instvar-value",
+											"objectClass": "Sprite5",
+											"sid": 740662410041386,
+											"parameters": {
+												"instance-variable": "FollowerID",
+												"value": "Jewel.UID"
+											}
+										}
+									],
+									"sid": 686503351358923
+								}
+							]
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Companion",
+									"sid": 872658634595963,
+									"parameters": {
+										"instance-variable": "Skill",
+										"comparison": 0,
+										"value": "2"
+									}
+								},
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Companion",
+									"sid": 474242870078734,
+									"parameters": {
+										"instance-variable": "CurrentCD",
+										"comparison": 0,
+										"value": "0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-instvar-value",
+									"objectClass": "Companion",
+									"sid": 830416587782709,
+									"parameters": {
+										"instance-variable": "CurrentCD",
+										"value": "Companion.CD"
+									}
+								},
+								{
+									"callFunction": "RandomBarricade",
+									"sid": 698757288825944,
+									"parameters": [
+										"round(random(4))"
+									]
+								}
+							],
+							"sid": 607804438810549
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Companion",
+									"sid": 920432127166389,
+									"parameters": {
+										"instance-variable": "Skill",
+										"comparison": 0,
+										"value": "3"
+									}
+								},
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Companion",
+									"sid": 477274971655651,
+									"parameters": {
+										"instance-variable": "CurrentCD",
+										"comparison": 0,
+										"value": "0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-instvar-value",
+									"objectClass": "Companion",
+									"sid": 704160770025929,
+									"parameters": {
+										"instance-variable": "CurrentCD",
+										"value": "Companion.CD"
+									}
+								},
+								{
+									"callFunction": "RandomBlasts",
+									"sid": 337602158040737
+								}
+							],
+							"sid": 342110209990919
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-selection",
+							"objectClass": "List2",
+							"sid": 608711636027910,
+							"parameters": {
+								"comparison": 0,
+								"index": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Companion",
+							"sid": 794443247572585,
+							"parameters": {
+								"animation": "\"GF1\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Companion",
+							"sid": 734850737259886,
+							"parameters": {
+								"instance-variable": "Skill",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Companion",
+							"sid": 286885842153828,
+							"parameters": {
+								"instance-variable": "CD",
+								"value": "Abilities.At(2,Companion.Skill)"
+							}
+						}
+					],
+					"sid": 281102717693481
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-selection",
+							"objectClass": "List2",
+							"sid": 408021623078723,
+							"parameters": {
+								"comparison": 0,
+								"index": "1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Companion",
+							"sid": 788094136624466,
+							"parameters": {
+								"animation": "\"F1\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Companion",
+							"sid": 227642191123120,
+							"parameters": {
+								"instance-variable": "Skill",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Companion",
+							"sid": 213971954000950,
+							"parameters": {
+								"instance-variable": "CD",
+								"value": "Abilities.At(2,Companion.Skill)"
+							}
+						}
+					],
+					"sid": 193800587249200
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-selection",
+							"objectClass": "List2",
+							"sid": 760067501582104,
+							"parameters": {
+								"comparison": 0,
+								"index": "2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Companion",
+							"sid": 921309206585342,
+							"parameters": {
+								"animation": "\"F2\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Companion",
+							"sid": 745457391048783,
+							"parameters": {
+								"instance-variable": "Skill",
+								"value": "2"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Companion",
+							"sid": 987416404558860,
+							"parameters": {
+								"instance-variable": "CD",
+								"value": "Abilities.At(2,Companion.Skill)"
+							}
+						}
+					],
+					"sid": 868378334079538
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-selection",
+							"objectClass": "List2",
+							"sid": 639314057488105,
+							"parameters": {
+								"comparison": 0,
+								"index": "3"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Companion",
+							"sid": 153873160463112,
+							"parameters": {
+								"animation": "\"F3\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Companion",
+							"sid": 276521986300380,
+							"parameters": {
+								"instance-variable": "Skill",
+								"value": "3"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Companion",
+							"sid": 502021702954238,
+							"parameters": {
+								"instance-variable": "CD",
+								"value": "Abilities.At(2,Companion.Skill)"
+							}
+						}
+					],
+					"sid": 979388271862344
+				},
+				{
+					"functionName": "RandomBlasts",
+					"functionDescription": "",
+					"functionCategory": "",
+					"functionReturnType": "none",
+					"functionIsAsync": false,
+					"functionParameters": [],
+					"eventType": "function-block",
+					"conditions": [],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 525550154823450,
+							"parameters": {
+								"variable": "BlastPosition",
+								"value": "round(random(0,MaxColumn-1))"
+							}
+						}
+					],
+					"sid": 712707332184211,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "for",
+									"objectClass": "System",
+									"sid": 846351049119037,
+									"parameters": {
+										"name": "\"Loop\"",
+										"start-index": "0",
+										"end-index": "MaxColumn-1"
+									}
+								},
+								{
+									"id": "evaluate-expression",
+									"objectClass": "System",
+									"sid": 227039574105221,
+									"parameters": {
+										"value": "loopindex=BlastPosition"
+									}
+								}
+							],
+							"actions": [],
+							"sid": 300563032628260,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "for",
+											"objectClass": "System",
+											"sid": 783037113837510,
+											"parameters": {
+												"name": "\"Loop\"",
+												"start-index": "0",
+												"end-index": "5"
+											}
+										},
+										{
+											"id": "pick-by-evaluate",
+											"objectClass": "System",
+											"sid": 126476883565320,
+											"parameters": {
+												"object": "Jewel",
+												"expression": "Jewel.Column=BlastPosition&Jewel.String=loopindex"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "create-object",
+											"objectClass": "System",
+											"sid": 847405380408275,
+											"parameters": {
+												"object-to-create": "Particles5",
+												"layer": "2",
+												"x": "Jewel.X",
+												"y": "Jewel.Y",
+												"create-hierarchy": false
+											}
+										},
+										{
+											"id": "destroy",
+											"objectClass": "Jewel",
+											"sid": 520123768196962
+										}
+									],
+									"sid": 758097770102356
+								}
+							]
+						}
+					]
+				},
+				{
+					"functionName": "RandomBarricade",
+					"functionDescription": "",
+					"functionCategory": "",
+					"functionReturnType": "none",
+					"functionIsAsync": false,
+					"functionParameters": [
+						{
+							"name": "String",
+							"type": "number",
+							"initialValue": "0",
+							"comment": "",
+							"sid": 471186684231045
+						}
+					],
+					"eventType": "function-block",
+					"conditions": [
+						{
+							"id": "for",
+							"objectClass": "System",
+							"sid": 272926495047835,
+							"parameters": {
+								"name": "\"Loop\"",
+								"start-index": "0",
+								"end-index": "11"
+							}
+						},
+						{
+							"id": "pick-by-evaluate",
+							"objectClass": "System",
+							"sid": 831511206341062,
+							"parameters": {
+								"object": "Jewel",
+								"expression": "Jewel.String=String & Jewel.Column=loopindex"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 341834156575676,
+							"parameters": {
+								"variable": "BarricadeLife",
+								"value": "4"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Jewel",
+							"sid": 805446351342810,
+							"parameters": {
+								"instance-variable": "color",
+								"value": "loopindex+100"
+							}
+						},
+						{
+							"id": "set-animation-frame",
+							"objectClass": "Jewel",
+							"sid": 134770387529085,
+							"parameters": {
+								"frame-number": "8"
+							}
+						}
+					],
+					"sid": 333726402492984,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [],
+							"actions": [
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 692451237486931,
+									"parameters": {
+										"variable": "CheckForMc",
+										"value": "1"
+									}
+								},
+								{
+									"callFunction": "EnemyCheck1",
+									"sid": 654692838084852
+								}
+							],
+							"sid": 626327924539823,
+							"disabled": true
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 556110310037131,
+							"parameters": {
+								"variable": "BarricadeLife",
+								"comparison": 0,
+								"value": "0"
+							}
+						},
+						{
+							"id": "pick-by-comparison",
+							"objectClass": "System",
+							"sid": 542900174863552,
+							"parameters": {
+								"object": "Jewel",
+								"expression": "Jewel.color",
+								"comparison": 4,
+								"value": "99"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Jewel",
+							"sid": 703591556457771
+						}
+					],
+					"sid": 980526858745207
+				}
+			],
+			"sid": 354282621263857
+		}
+	],
+	"sid": 896699929578413
+}

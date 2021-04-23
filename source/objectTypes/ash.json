@@ -1,0 +1,57 @@
+{
+	"name": "Ash",
+	"plugin-id": "Sprite",
+	"sid": 175216506937525,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 56,
+						"height": 67,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5240268,
+						"collisionPoly": {
+							"points": [
+								0.3392857142857143,
+								0.2835820895522388,
+								0.5,
+								0,
+								0.6428571428571429,
+								0.2835820895522388,
+								0.8928571428571429,
+								0.5,
+								0.8214285714285714,
+								0.8507462686567164,
+								0.5,
+								0.9701492537313433,
+								0.16071428571428573,
+								0.8507462686567164,
+								0.07142857142857142,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 676178124552036,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

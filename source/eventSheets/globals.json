@@ -1,0 +1,126 @@
+{
+	"name": "Globals",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "AttackDelay",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 497608273761981
+		},
+		{
+			"eventType": "variable",
+			"name": "MagicArmorPercentageMC",
+			"type": "number",
+			"initialValue": "1",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 133488327583247
+		},
+		{
+			"eventType": "variable",
+			"name": "WeaponPercentageMC",
+			"type": "number",
+			"initialValue": "1.1",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 273968397348812
+		},
+		{
+			"eventType": "variable",
+			"name": "MagicArmorPercentageEnemy",
+			"type": "number",
+			"initialValue": "1",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 479491824071460
+		},
+		{
+			"eventType": "variable",
+			"name": "WeaponPercentageEnemy",
+			"type": "number",
+			"initialValue": "1",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 290094441889606
+		},
+		{
+			"eventType": "variable",
+			"name": "PhysArmorPercentageMC",
+			"type": "number",
+			"initialValue": "1",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 441607418715746
+		},
+		{
+			"eventType": "variable",
+			"name": "PhysArmorPercentageEnemy",
+			"type": "number",
+			"initialValue": "1",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 747042544447600
+		},
+		{
+			"eventType": "variable",
+			"name": "MeleeFight",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 679173670133535
+		},
+		{
+			"eventType": "variable",
+			"name": "CheckForMc",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 565076702489040
+		},
+		{
+			"eventType": "variable",
+			"name": "OkToIncrement",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 681214419483029
+		},
+		{
+			"eventType": "variable",
+			"name": "BarricadeLife",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 216897446444776
+		},
+		{
+			"eventType": "variable",
+			"name": "BlastPosition",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 247961404171981
+		}
+	],
+	"sid": 467224667525251
+}

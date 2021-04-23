@@ -1,0 +1,57 @@
+{
+	"name": "Longbar",
+	"plugin-id": "Sprite",
+	"sid": 595035542065356,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1966,
+						"height": 110,
+						"originX": 0.5,
+						"originY": 1.8181818181818181,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4087584,
+						"collisionPoly": {
+							"points": [
+								0.09715157680569685,
+								1,
+								0.5,
+								1,
+								0.9023397761953205,
+								1,
+								0.9994913530010173,
+								1,
+								0.9486266531027467,
+								1,
+								0.5,
+								1,
+								0.05035605289928789,
+								1,
+								0,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 858082598577959,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

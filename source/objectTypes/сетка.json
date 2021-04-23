@@ -1,0 +1,74 @@
+{
+	"name": "сетка",
+	"plugin-id": "Sprite",
+	"sid": 407198474113377,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "Column",
+			"type": "number",
+			"desc": "",
+			"sid": 409121710286634
+		},
+		{
+			"name": "String",
+			"type": "number",
+			"desc": "",
+			"sid": 773928705075580
+		},
+		{
+			"name": "filled",
+			"type": "number",
+			"desc": "",
+			"sid": 304918820273651
+		},
+		{
+			"name": "CanDelete",
+			"type": "number",
+			"desc": "",
+			"sid": 984474999204191
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 96,
+						"height": 96,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3003979,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.9895833333333334,
+								0,
+								0.9895833333333334,
+								0.9895833333333334,
+								0,
+								0.9895833333333334
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 867175634962024,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

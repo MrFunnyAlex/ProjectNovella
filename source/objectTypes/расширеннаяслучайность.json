@@ -1,0 +1,13 @@
+{
+	"name": "РасширеннаяСлучайность",
+	"plugin-id": "AdvancedRandom",
+	"sid": 373354191395392,
+	"singleglobal-inst": {
+		"type": "РасширеннаяСлучайность",
+		"properties": {
+			"seed": "",
+			"seeded-random": false
+		},
+		"uid": 4
+	}
+}

@@ -1,0 +1,546 @@
+{
+	"name": "chlen",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "PickedColors",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 909013687390931
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 443036911427295
+				}
+			],
+			"actions": [
+				{
+					"id": "stop-animation",
+					"objectClass": "JewelSelection",
+					"sid": 130480260332075
+				},
+				{
+					"id": "set-animation-frame",
+					"objectClass": "JewelSelection",
+					"sid": 511618860264341,
+					"parameters": {
+						"frame-number": "JewelSelection.color"
+					}
+				}
+			],
+			"sid": 958163504454911
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 959204249764749
+				}
+			],
+			"actions": [
+				{
+					"id": "set-at-xy",
+					"objectClass": "Abilities",
+					"sid": 450993350724435,
+					"disabled": true,
+					"parameters": {
+						"x": "0",
+						"y": "0",
+						"value": "\"Манчжурская техника\""
+					}
+				},
+				{
+					"id": "set-at-xy",
+					"objectClass": "Abilities",
+					"sid": 887849125887297,
+					"disabled": true,
+					"parameters": {
+						"x": "1",
+						"y": "0",
+						"value": "5"
+					}
+				},
+				{
+					"id": "set-at-xy",
+					"objectClass": "Abilities",
+					"sid": 512523802887163,
+					"disabled": true,
+					"parameters": {
+						"x": "2",
+						"y": "0",
+						"value": "0"
+					}
+				},
+				{
+					"id": "set-at-xy",
+					"objectClass": "Abilities",
+					"sid": 284362300777397,
+					"disabled": true,
+					"parameters": {
+						"x": "3",
+						"y": "0",
+						"value": "1"
+					}
+				},
+				{
+					"id": "request-project-file",
+					"objectClass": "AJAX",
+					"sid": 982215239682523,
+					"parameters": {
+						"tag": "\"Abilities\"",
+						"file": "Abilities.json"
+					}
+				}
+			],
+			"sid": 899501047097634
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-completed",
+					"objectClass": "AJAX",
+					"sid": 553173511500930,
+					"parameters": {
+						"tag": "\"Abilities\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "load",
+					"objectClass": "Abilities",
+					"sid": 607088658060323,
+					"parameters": {
+						"json": "AJAX.LastData"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Companion",
+					"sid": 266452817345512,
+					"parameters": {
+						"instance-variable": "Skill",
+						"value": "0"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Companion",
+					"sid": 366527000139867,
+					"parameters": {
+						"instance-variable": "CD",
+						"value": "Abilities.At(Companion.Skill+2,0)"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Companion",
+					"sid": 115703251525820,
+					"parameters": {
+						"instance-variable": "CurrentCD",
+						"value": "Abilities.At(Companion.Skill+3,0)"
+					}
+				},
+				{
+					"id": "request-project-file",
+					"objectClass": "AJAX",
+					"sid": 470802691413121,
+					"parameters": {
+						"tag": "\"Figures\"",
+						"file": "Figures.json"
+					}
+				}
+			],
+			"sid": 305671843787035
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-completed",
+					"objectClass": "AJAX",
+					"sid": 167039897307142,
+					"parameters": {
+						"tag": "\"Figures\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "load",
+					"objectClass": "Figures",
+					"sid": 260074693449205,
+					"parameters": {
+						"json": "AJAX.LastData"
+					}
+				}
+			],
+			"sid": 895595594878112
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 610853136029555,
+					"parameters": {
+						"key": 39
+					}
+				},
+				{
+					"id": "is-moving",
+					"objectClass": "MC",
+					"sid": 645051526716487,
+					"behaviorType": "8Direction"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "MC",
+					"sid": 836378416158625,
+					"parameters": {
+						"animation": "\"Movement\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 683365291683614
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-moving",
+					"objectClass": "MC",
+					"sid": 372649640924627,
+					"behaviorType": "8Direction",
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "MC",
+					"sid": 352140274466931,
+					"parameters": {
+						"animation": "\"IDLE\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 403329968803596
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 864380291669426,
+					"parameters": {
+						"key": 38
+					}
+				},
+				{
+					"id": "is-moving",
+					"objectClass": "MC",
+					"sid": 478204128749906,
+					"behaviorType": "8Direction"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "MC",
+					"sid": 996943747610626,
+					"parameters": {
+						"animation": "\"Movement Top\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 533911136712649
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "MC",
+					"sid": 723036902446924,
+					"parameters": {
+						"object": "Encounter"
+					}
+				}
+			],
+			"actions": [
+				{
+					"callFunction": "FightingScreen",
+					"sid": 161438254908121
+				}
+			],
+			"sid": 605325747889445,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [],
+					"actions": [],
+					"sid": 701752097078980
+				},
+				{
+					"eventType": "block",
+					"conditions": [],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 457383862137509,
+							"disabled": true,
+							"parameters": {
+								"layout": "Макет 1"
+							}
+						}
+					],
+					"sid": 679390872628069
+				}
+			]
+		},
+		{
+			"functionName": "FightingScreen",
+			"functionDescription": "",
+			"functionCategory": "",
+			"functionReturnType": "none",
+			"functionIsAsync": false,
+			"functionParameters": [],
+			"eventType": "function-block",
+			"conditions": [],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "BattleGround",
+					"sid": 598509279507205,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "JewelSelection",
+					"sid": 882205789787582,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "CD",
+					"sid": 718918019363611,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 416531744705842
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Мышь",
+					"sid": 721596949641899,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "JewelSelection"
+					}
+				},
+				{
+					"id": "is-visible",
+					"objectClass": "JewelSelection",
+					"sid": 465188676860079
+				}
+			],
+			"actions": [],
+			"sid": 192766859152050,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-opacity",
+							"objectClass": "JewelSelection",
+							"sid": 310712856138114,
+							"parameters": {
+								"comparison": 0,
+								"opacity": "50"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 821501255137449,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-eventvar",
+									"objectClass": "System",
+									"sid": 417742676761787,
+									"parameters": {
+										"variable": "PickedColors",
+										"comparison": 2,
+										"value": "4"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-opacity",
+									"objectClass": "JewelSelection",
+									"sid": 923153838246941,
+									"parameters": {
+										"opacity": "100"
+									}
+								},
+								{
+									"id": "set-at-x",
+									"objectClass": "Picked",
+									"sid": 792454393070429,
+									"parameters": {
+										"x": "PickedColors",
+										"value": "JewelSelection.color"
+									}
+								},
+								{
+									"id": "add-to-eventvar",
+									"objectClass": "System",
+									"sid": 493083652788505,
+									"parameters": {
+										"variable": "PickedColors",
+										"value": "1"
+									}
+								}
+							],
+							"sid": 917565395050012
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 393772296760246
+						},
+						{
+							"id": "contains-value",
+							"objectClass": "Picked",
+							"sid": 369660165499709,
+							"parameters": {
+								"value": "JewelSelection.color"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "delete",
+							"objectClass": "Picked",
+							"sid": 130645913049454,
+							"parameters": {
+								"index": "Picked.PickedCount",
+								"axis": "x"
+							}
+						},
+						{
+							"id": "set-opacity",
+							"objectClass": "JewelSelection",
+							"sid": 753952536947860,
+							"parameters": {
+								"opacity": "50"
+							}
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 660277899650033,
+							"parameters": {
+								"variable": "PickedColors",
+								"value": "-1"
+							}
+						}
+					],
+					"sid": 323003559957384,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [],
+							"actions": [],
+							"sid": 143784769202739
+						}
+					]
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Мышь",
+					"sid": 699701024728905,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "CD"
+					}
+				},
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "CD",
+					"sid": 433482013880212,
+					"parameters": {
+						"instance-variable": "Num",
+						"comparison": 0,
+						"value": "0"
+					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 109325419425525,
+					"parameters": {
+						"variable": "PickedColors",
+						"comparison": 0,
+						"value": "4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 309094732779040,
+					"parameters": {
+						"layout": "Макет 1"
+					}
+				}
+			],
+			"sid": 391478141585102
+		}
+	],
+	"sid": 435784280560205
+}

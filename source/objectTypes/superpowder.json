@@ -1,0 +1,57 @@
+{
+	"name": "SuperPowder",
+	"plugin-id": "Sprite",
+	"sid": 786927826950122,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 63,
+						"height": 103,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6241999,
+						"collisionPoly": {
+							"points": [
+								0.031746031746031744,
+								0.019417475728155338,
+								0.5,
+								0.009708737864077669,
+								0.9523809523809523,
+								0.019417475728155338,
+								0.873015873015873,
+								0.5,
+								0.9523809523809523,
+								0.970873786407767,
+								0.5,
+								0.9902912621359223,
+								0.031746031746031744,
+								0.970873786407767,
+								0.1111111111111111,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 872410315731279,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

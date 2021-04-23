@@ -1,0 +1,186 @@
+{
+	"name": "weapon",
+	"plugin-id": "Sprite",
+	"sid": 710197424658462,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 128,
+						"height": 128,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1505760,
+						"collisionPoly": {
+							"points": [
+								0.0078125,
+								0.0078125,
+								0.5,
+								0.4765625,
+								0.5078125,
+								0.484375,
+								0.5234375,
+								0.5,
+								0.9296875,
+								0.9296875,
+								0.5,
+								0.5859375,
+								0.4609375,
+								0.53125,
+								0.4296875,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 856954136770834,
+				"name": "wand",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 128,
+						"height": 128,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4272917,
+						"collisionPoly": {
+							"points": [
+								0.4921875,
+								0.4921875,
+								0.5,
+								0.4765625,
+								0.984375,
+								0.0078125,
+								0.6015625,
+								0.5,
+								0.546875,
+								0.546875,
+								0.5,
+								0.84375,
+								0.2578125,
+								0.734375,
+								0.4765625,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 356291120159508,
+				"name": "Knuckles",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 128,
+						"height": 128,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3819518,
+						"collisionPoly": {
+							"points": [
+								0.4921875,
+								0.4921875,
+								0.5,
+								0.4765625,
+								0.984375,
+								0.0078125,
+								0.6015625,
+								0.5,
+								0.546875,
+								0.546875,
+								0.5,
+								0.84375,
+								0.2578125,
+								0.734375,
+								0.4765625,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 671586733661343,
+				"name": "Sword",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 128,
+						"height": 128,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1339651,
+						"collisionPoly": {
+							"points": [
+								0.21875,
+								0.21875,
+								0.5,
+								0.25,
+								0.6328125,
+								0.359375,
+								0.8828125,
+								0.5,
+								0.71875,
+								0.71875,
+								0.5,
+								0.7421875,
+								0.078125,
+								0.9140625,
+								0.109375,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 484290133469901,
+				"name": "Leash",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

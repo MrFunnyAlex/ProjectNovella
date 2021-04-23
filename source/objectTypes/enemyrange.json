@@ -1,0 +1,57 @@
+{
+	"name": "EnemyRange",
+	"plugin-id": "Sprite",
+	"sid": 233749960849050,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 30,
+						"height": 520,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6440412,
+						"collisionPoly": {
+							"points": [
+								0.3,
+								0.01730769230769231,
+								0.5,
+								0,
+								0.9666666666666667,
+								0,
+								0.6333333333333333,
+								0.5,
+								0.9666666666666667,
+								0.9980769230769231,
+								0.5,
+								0.9980769230769231,
+								0.3,
+								0.9807692307692307,
+								0.3333333333333333,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 511521320382213,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

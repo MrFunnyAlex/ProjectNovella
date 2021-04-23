@@ -1,0 +1,64 @@
+{
+	"name": "EnemyPhysShield",
+	"plugin-id": "Sprite",
+	"sid": 683891434817056,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "ShieldHp",
+			"type": "number",
+			"desc": "",
+			"sid": 208901093340947
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 128,
+						"height": 128,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3943883,
+						"collisionPoly": {
+							"points": [
+								0.1640625,
+								0.1640625,
+								0.5,
+								0.046875,
+								0.8203125,
+								0.171875,
+								0.8828125,
+								0.5,
+								0.75,
+								0.75,
+								0.5,
+								0.953125,
+								0.234375,
+								0.7578125,
+								0.09375,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 461779486493991,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

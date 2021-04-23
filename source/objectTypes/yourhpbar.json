@@ -1,0 +1,71 @@
+{
+	"name": "YourHPBar",
+	"plugin-id": "Sprite",
+	"sid": 986483017608744,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "Hp",
+			"type": "number",
+			"desc": "",
+			"sid": 681617197784599
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 110,
+						"height": 970,
+						"originX": 0.4818181818181818,
+						"originY": 0.7927835051546391,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4124034,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								1,
+								0,
+								1,
+								0,
+								1,
+								0.5,
+								1,
+								0.9975,
+								1,
+								0.9975,
+								0,
+								0.9975,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 0,
+								"y": 0.5050505050505051
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 258224541821142,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
